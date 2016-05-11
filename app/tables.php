@@ -6,11 +6,28 @@
 
 	<?php include 'php/head.php'; ?>
 
+<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
+
 <style type="text/css">
 	.content img {
 		width: 100%;
 	}
 </style>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+
+		});
+	</script>
 
 </head>
 <body class="productscoverimage">
@@ -19,6 +36,7 @@
 	
 		<!-- header -->
 		<?php include 'php/header.php'; ?>
+
 
 <div class="griddo griddo-pad">
 	  <div class="col-1-3">
@@ -32,37 +50,41 @@
       <div class="col-2-3">
 
         <div class="content">
-        <div class="grid">
-	  <div class="grid-sizer"></div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord01.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord24.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/11417461_676555859142246_849368434_n.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/11910437_136278473384694_309456875_n.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord02.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord04.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord22.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord15.jpg" />
-	  </div>
-	  <div class="grid-item">
-	    <img src="images/products/tables/bord23.jpg" />
-	  </div>
-	</div>
-        </div>
+			        
+			        <div class="grid">
+					  <div class="grid-sizer"></div>
+
+
+			 <?php 
+    
+		    require_once("php/config.php");
+		    
+		    //SQL query to select all products
+		    $sql = "select * from products";
+		    //connects to db
+		    $result = $conn->query($sql);
+		    //gets data from db and prints out products
+		    while($row = $result->fetch_array()){
+
+		    	?>
+		    	
+
+
+					  <div class="grid-item">
+
+						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+					    <img src="<?= $row['mainimage']; ?>">
+					    </a>
+
+					  </div>
+
+
+		    	<?php
+		    }
+		    ?>
+
+					</div>
+			    </div>
 
       </div>
 </div>
@@ -75,7 +97,7 @@
 	<div id="footer"></div>
 
 	</div>
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
   <script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
   <script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
   <script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
