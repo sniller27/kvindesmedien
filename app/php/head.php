@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicons -->
-<link rel="icon" type="image/png" href="images/favicon.jpg">
-<link rel="apple-touch-icon" href="images/favicon.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
 
 <!-- CSS -->
 <link href="css/styles.css" rel="stylesheet">
