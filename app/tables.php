@@ -41,15 +41,29 @@
 <div class="griddo griddo-pad">
 	  <div class="col-1-3">
 	    <div class="content">
-	    <img src="images/partners/new/dgi.jpg">
-	    </div><div class="content">
-	    <img src="images/partners/new/dr.jpg">
+	    <div class="categorymenu">
+	    <h2>Produkter</h2>
+	    	<p><a href="tables.php">Borde</a></p>
+	    	<p><a href="tables.php">Møbler</a></p>
+	    	<p><a href="tables.php">Stager</a></p>
+	    	<p><a href="tables.php">Lystræer og lysglober</a></p>
+	    	<p><a href="tables.php">Skulpturer</a></p>
+	    	<p><a href="tables.php">Haven</a></p>
 	    </div>
+	    </div><div class="content">
+			    <div class="newslettersignup">
+			    	<h3>Tilmeld dig vores nyhedsbrev!</h3>
+			    	<form>
+			    		<input type="text" placeholder="E-mail"></input>
+			    		<button class="btn">Tilmeld</button>
+			    	</form>
+			    </div>
+		    </div>
 	  </div>
 
       <div class="col-2-3">
 
-        <div class="content">
+        <div class="content botbuffer">
 			        
 			        <div class="grid">
 					  <div class="grid-sizer"></div>
@@ -60,7 +74,10 @@
 		    require_once("php/config.php");
 		    
 		    //SQL query to select all products
-		    $sql = "select * from products";
+		    $sql = "select mainimage 
+from products a, productcategory_has_products b
+where a.idproduct = b.products_idproduct and
+productcategory_idproductcategory = 4";
 		    //connects to db
 		    $result = $conn->query($sql);
 		    //gets data from db and prints out products
@@ -72,7 +89,7 @@
 
 					  <div class="grid-item">
 
-						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
 					    <img src="<?= $row['mainimage']; ?>">
 					    </a>
 
@@ -101,5 +118,7 @@
   <script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
   <script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
   <script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
+
+  
 </body>
 </html>

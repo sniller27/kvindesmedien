@@ -20,7 +20,7 @@
 	</div>
 
 	
-
+<img src="images/slider.jpg">
 	<div class="griddo griddo-pad">
       <div class="col-1-1">
         <div class="smallcollage">

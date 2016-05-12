@@ -32,7 +32,7 @@ if($currentsite == 'index'){
     <div id='cssmenu'>
     <ul>
        <li><a href='index.php' <?= $frontpage ?>>Forside</a></li>
-       <li class='active'><a href='products.php' <?= $products ?>>Håndværk</a>
+       <li class='active'><a href='products.php' <?= $products ?>>Produkter</a>
           <ul>
              <li><a href='tables.php'>Borde</a>
                 <!-- <ul>
@@ -40,11 +40,11 @@ if($currentsite == 'index'){
                    <li><a href='#'>Sub Product</a></li>
                 </ul> -->
              </li>
-             <li><a href='#'>Møbler</a></li>
-             <li><a href='#'>Stager</a></li>
-             <li><a href='#'>Lysglober</a></li>
-             <li><a href='#'>Skulpturer</a></li>
-             <li><a href='#'>Haven</a></li>
+             <li><a href='furniture.php'>Møbler</a></li>
+             <li><a href='candlesticks.php'>Stager</a></li>
+             <li><a href='light.php'>Lysglober</a></li>
+             <li><a href='sculptures.php'>Skulpturer</a></li>
+             <li><a href='garden.php'>Haven</a></li>
 
           </ul>
        </li>

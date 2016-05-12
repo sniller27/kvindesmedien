@@ -386,6 +386,24 @@ html {
 #content {
   padding-bottom: 100px;
 }
+.botbuffer {
+  margin-bottom: 60px;
+}
+/** BUTTONS START **/
+.btn {
+  font-family: Arial;
+  color: #dddddd;
+  font-size: 22px;
+  background: rgba(51, 51, 51, 0.9);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgba(90, 90, 90, 0.9);
+  text-decoration: none;
+}
+/** BUTTONS END **/
 .coverimage {
   background-image: url(../images/kvindesmedien2.jpg);
   background-size: cover;
@@ -417,6 +435,7 @@ html {
     float: right;
   }
 }
+/** LOGO **/
 /** Responsive burger menu for mobile START **/
 #cssmenu,
 #cssmenu ul,
@@ -788,5 +807,26 @@ html {
 }
 /** CSS MENU FIXES END **/
 /** CSS NEWSLETTER **/
+/** CATEGORY MENU START **/
+.categorymenu {
+  background-color: #D6D6D2;
+  padding: 20px;
+}
+/** NEWSLETTER **/
+.newslettersignup {
+  background-color: #D6D6D2;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.newslettersignup input,
+.newslettersignup button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /** medium **/
 /** big **/
