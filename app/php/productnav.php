@@ -3,11 +3,11 @@
 			    <div class="categorymenu">
 			    <h2>Produkter</h2>
 			    	<p><a href="tables.php" <?= $tables ?>>Borde</a></p>
-			    	<p><a href="tables.php" <?= $furniture ?>>Møbler</a></p>
-			    	<p><a href="tables.php" <?= $candlesticks ?>>Stager</a></p>
-			    	<p><a href="tables.php" <?= $light ?>>Lystræer og lysglober</a></p>
-			    	<p><a href="tables.php" <?= $sculptures ?>>Skulpturer</a></p>
-			    	<p><a href="tables.php" <?= $garden ?>>Haven</a></p>
+			    	<p><a href="furniture.php" <?= $furniture ?>>Møbler</a></p>
+			    	<p><a href="candlesticks.php" <?= $candlesticks ?>>Stager</a></p>
+			    	<p><a href="light.php" <?= $light ?>>Lystræer og lysglober</a></p>
+			    	<p><a href="sculptures.php" <?= $sculptures ?>>Skulpturer</a></p>
+			    	<p><a href="garden.php" <?= $garden ?>>Haven</a></p>
 			    </div>
 		    </div>
 	    	<div class="content">
@@ -20,9 +20,37 @@
 			    </div>
 		    </div>
 
-		    <?php
-		    	if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
+	<?php
+
+	if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+	require_once("php/config.php");
+
+	$emailsignup = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Error: email er ikke gyldig');
+
+    //SQL query that select product stock
+    $sql = "select email from newsletters where email = ? LIMIT 1";
+    $insertsql = "INSERT INTO `newsletters`(`idnewsletters`, `email`) VALUES (null, ?)";
+
+    //prepared statement for produkt info
+    $stmt = $conn->prepare($sql);
+	$insertstmt = $conn->prepare($insertsql);
+	$insertstmt->bind_param('s', $emailsignup);
+
+    $stmt->bind_param('s', $emailsignup);
+    $stmt->bind_result($emailexists);
+    $stmt->execute();
+    
+    //saves stock as variable
+    if($stmt->fetch() == 0){
+
+	    //prepared statement
+	//    $stmt->bind_param('s', $deliveryaddress);
+	    $insertstmt->execute();
+        
+        // $stock = $pstockid;
+        
 $msg = <<<EOD
 <h1>Ordrebekræftelse</h1><br>
 <h2>Ordre nummer: 222</h2>
@@ -41,10 +69,19 @@ Venlig hilsen<br>
 Tingfinderen
 
 EOD;
+$headers = "From: Kvindesmedien";
 
 		    		$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Error: email er ikke gyldig');
 		    		//sends mail
-    				mail($email, "Tingfinderen.dk", $msg, "MIME-version: 1.0\nContent-type: text/html; charset= UTF-8");
+    				mail($email, "Du er nu tilmeldt vores nyhedsbrev", $msg, $headers);
+        
+    }else {
+    	echo 'Du er allerede tilmeldt vores nyhedsbrev';
+    }
+    //closes statement to prevent error
+    $stmt->close();
+
+
 		    	}
 		    ?>
 </div>
