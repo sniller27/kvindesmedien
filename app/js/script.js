@@ -70,6 +70,22 @@ $("#cssmenu").menumaker({
 
 });
 })(jQuery);
+;$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox({
+				helpers: {
+			    overlay: {
+			      locked: false
+			    }
+			  }
+			});
+
+
+
+});
 ;/*!
  * Masonry PACKAGED v4.0.0
  * Cascading grid layout library

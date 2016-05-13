@@ -5,6 +5,15 @@ $products = '';
 $about = '';
 $contact = '';
 
+//productcategory
+$tables = '';
+$furniture = '';
+$candlesticks = '';
+$light = '';
+$sculptures = '';
+$garden = '';
+
+
 //chooses id for active page
 $currentsite = basename($_SERVER['PHP_SELF'], ".php");
 if($currentsite == 'index'){
@@ -22,6 +31,36 @@ if($currentsite == 'index'){
 }else if($currentsite == 'contact'){
 
     $contact = 'id="active"';
+
+}else if($currentsite == 'tables'){
+
+    $products = 'id="active"';
+    $tables = 'class="active"';
+
+}else if($currentsite == 'furniture'){
+
+    $products = 'id="active"';
+    $furniture = 'class="active"';
+
+}else if($currentsite == 'candlesticks'){
+
+    $products = 'id="active"';
+    $candlesticks = 'class="active"';
+
+}else if($currentsite == 'light'){
+
+    $products = 'id="active"';
+    $light = 'class="active"';
+
+}else if($currentsite == 'sculptures'){
+
+    $products = 'id="active"';
+    $sculptures = 'class="active"';
+
+}else if($currentsite == 'garden'){
+
+    $products = 'id="active"';
+    $garden = 'class="active"';
 
 }
 

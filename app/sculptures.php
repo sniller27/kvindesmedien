@@ -11,23 +11,8 @@
 	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
 
-<style type="text/css">
-	.content img {
-		width: 100%;
-	}
-</style>
 
-<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
-
-			$('.fancybox').fancybox();
-
-
-		});
-	</script>
+<script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
 <body class="productscoverimage">
@@ -39,27 +24,8 @@
 
 
 <div class="griddo griddo-pad">
-	  <div class="col-1-3">
-	    <div class="content">
-	    <div class="categorymenu">
-	    <h2>Produkter</h2>
-	    	<p><a href="tables.php">Borde</a></p>
-	    	<p><a href="tables.php">Møbler</a></p>
-	    	<p><a href="tables.php">Stager</a></p>
-	    	<p><a href="tables.php">Lystræer og lysglober</a></p>
-	    	<p><a href="tables.php">Skulpturer</a></p>
-	    	<p><a href="tables.php">Haven</a></p>
-	    </div>
-	    </div><div class="content">
-			    <div class="newslettersignup">
-			    	<h3>Tilmeld dig vores nyhedsbrev!</h3>
-			    	<form>
-			    		<input type="text" placeholder="E-mail"></input>
-			    		<button class="btn">Tilmeld</button>
-			    	</form>
-			    </div>
-		    </div>
-	  </div>
+	
+	<?php include 'php/productnav.php'; ?>
 
       <div class="col-2-3">
 
