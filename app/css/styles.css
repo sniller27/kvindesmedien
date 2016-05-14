@@ -937,7 +937,7 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.newslettersignup .btn {
+.newsletterbtn {
   font-family: Arial;
   color: #dddddd;
   font-size: 22px;
@@ -946,8 +946,9 @@ textarea {
   text-decoration: none;
   cursor: pointer;
   border: 0px;
+  margin-bottom: 10px;
 }
-.newslettersignup .btn:hover {
+.newsletterbtn:hover {
   background: rgba(90, 90, 90, 0.9);
   text-decoration: none;
 }

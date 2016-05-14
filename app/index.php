@@ -26,7 +26,7 @@
 			      	</div>
 			      </div>
 			      <div class="col-1-3 .mobile-col-1-2">
-			      <a href="#">
+			      <a href="sculptures.php">
 			      	<div class="frontpagebox1">
 			      		<div class="imagetextsmall">
 			      			<h2 style="margin:0px; color:white;">Se vores mange skulpturer</h2>
@@ -61,11 +61,7 @@
 				      <img src="images/ejere.jpg" style="width: 100%">
 				    </div>
 				    <div class="col-1-1 newsletterfrontpage">
-					    <form>
-					    	<h2>Tilmeld dig vores nyhedsbrev</h2>
-					    	<input type="text"></input>
-					    	<button class="btn">Tilmeld</button>
-					    </form>
+					    <?php require_once("php/newslettersignup.php"); ?>
 				    </div>
 
 			    </div>
