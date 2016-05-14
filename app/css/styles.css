@@ -392,6 +392,9 @@ html {
 .botbuffer {
   margin-bottom: 60px;
 }
+.responsiveimg img {
+  width: 100%;
+}
 /** BUTTONS START **/
 .btn {
   font-family: Arial;
@@ -920,6 +923,14 @@ textarea {
 /** ACTIVE IN CATEGORY MENU **/
 .active {
   color: #878787 !important;
+}
+.styledheader {
+  background-color: #333333;
+  padding: 10px;
+}
+.styledheader h2 {
+  color: #dddddd;
+  margin: 10px;
 }
 /** NEWSLETTER **/
 .newslettersignup {

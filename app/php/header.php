@@ -62,6 +62,11 @@ if($currentsite == 'index'){
     $products = 'id="active"';
     $garden = 'class="active"';
 
+}else if($currentsite == 'awards'){
+
+    $about = 'id="active"';
+    $awards = 'class="active"';
+
 }
 
 ?>
@@ -91,8 +96,10 @@ if($currentsite == 'index'){
        <ul>
            
             <li><a href='#'>Smedeopgaver</a></li>
+            <li><a href='#'>Samarbejde</a></li>
+            <li><a href='#'>Udstillinger</a></li>
             <li><a href='#'>Showroom</a></li>
-            <li><a href='#'>Priser og awards</a></li>
+            <li><a href='awards.php'>Priser og awards</a></li>
 
        </ul>
        </li>

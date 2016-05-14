@@ -71,29 +71,33 @@
     </div>
   </div>
   <div class="col-1-3 smallbotbuffer">
-      <div class="content contactpageinformation">
+      <div class="content">
+        
+        <div class="styledheader">
+        <h2>Kontaktinfo</h2>
+        </div>
 
-      <div class="smallbotbuffer">
-      <h2>Kontaktinfo</h2>
-      <p>Kvindesmedien Aps <br> 
-      Mælkevejen 83 E<br> 1440 København<br>
-      CVR: 36087080 <br><br>
-      Telefon: 3257 7658<br>
-      Email: kontakt@kvindesmedien.dk</p>
-      </div>
+        <div class="contactpageinformation">
+          <div class="smallbotbuffer">
+          <p>Kvindesmedien Aps <br> 
+          Mælkevejen 83 E<br> 1440 København<br>
+          CVR: 36087080 <br><br>
+          Telefon: 3257 7658<br>
+          Email: kontakt@kvindesmedien.dk</p>
+          </div>
 
-      <div class="smallbotbuffer">
-      <h2>Åbningstider</h2>
-      <p>Hverdage 9.00 – 17.00 <br>
-       Lørdag 11.00 – 15.00</p>
-      </div>
+          <div class="smallbotbuffer">
+          <h2>Åbningstider</h2>
+          <p>Hverdage 9.00 – 17.00 <br>
+           Lørdag 11.00 – 15.00</p>
+          </div>
 
-      <div class="smallbotbuffer">
-        <h2>Find os her:</h2>
-        <!-- Google maps -->
-        <div id="map_canvas"></div>
-      </div>
-
+          <div class="smallbotbuffer">
+            <h2>Find os her:</h2>
+            <!-- Google maps -->
+            <div id="map_canvas"></div>
+          </div>
+        </div>
       </div>
   </div>
 
