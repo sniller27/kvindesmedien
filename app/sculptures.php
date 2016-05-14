@@ -43,7 +43,7 @@
 		    $sql = "select mainimage 
 from products a, productcategory_has_products b
 where a.idproduct = b.products_idproduct and
-productcategory_idproductcategory = 1";
+productcategory_idproductcategory = 1 LIMIT 40";
 
 		    //connects to db
 		    $result = $conn->query($sql);

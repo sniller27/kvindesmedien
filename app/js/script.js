@@ -64,7 +64,7 @@
 $(document).ready(function(){
 
 $("#cssmenu").menumaker({
-   title: "Kvindesmedien",
+   title: " .",
    format: "multitoggle"
 });
 

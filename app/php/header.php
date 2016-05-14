@@ -102,3 +102,4 @@ if($currentsite == 'index'){
     </div>
 
 </div>
+<a href="index.php"><img src="images/websitelogo.png" class="logotop"></a>

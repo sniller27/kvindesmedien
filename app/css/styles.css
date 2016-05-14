@@ -431,6 +431,13 @@ textarea {
   background-position: center;
   height: 100vh;
 }
+.logotop {
+  width: 160px;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  z-index: 2;
+}
 #christiania {
   background-image: url(../images/christiania3.jpg);
 }
@@ -884,4 +891,16 @@ textarea {
   height: 300px;
 }
 /** medium **/
+@media only screen and (min-width: 768px) {
+  .logotop {
+    width: 120px;
+    top: 9px;
+  }
+}
 /** big **/
+@media only screen and (min-width: 1200px) {
+  .logotop {
+    width: 160px;
+    top: 6px;
+  }
+}
