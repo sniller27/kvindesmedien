@@ -1,4 +1,4 @@
-<div class="col-1-3">
+<div class="col-md-4">
 		    <div class="content">
 			    <div>
 				    <div class="styledheader">

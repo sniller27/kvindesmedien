@@ -18,7 +18,8 @@
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 <!-- Simple Grid -->
-<link rel="stylesheet" type="text/css" href="less/simplegrid.css">
+<!-- <link rel="stylesheet" type="text/css" href="less/simplegrid.css"> -->
+<link rel="stylesheet" type="text/css" href="less/grid12.css">
 
 <!-- JavaScript -->
 <script type="text/javascript" src="js/script.js"></script>

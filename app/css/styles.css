@@ -392,8 +392,15 @@ html {
 .botbuffer {
   margin-bottom: 60px;
 }
+.topbuffer {
+  margin-top: 60px;
+}
+.smalltopbuffer {
+  margin-top: 30px;
+}
 .responsiveimg img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 /** BUTTONS START **/
 .btn {

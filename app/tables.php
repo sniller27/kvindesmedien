@@ -11,7 +11,6 @@
 	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
 
-
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
@@ -23,11 +22,11 @@
 		<?php include 'php/header.php'; ?>
 
 
-<div class="griddo griddo-pad">
-	  
-	  	<?php include 'php/productnav.php'; ?>
+<div class="container smalltopbuffer">
+	<div class="row">
+	<?php include 'php/productnav.php'; ?>
 
-      <div class="col-2-3">
+      <div class="col-md-8">
 
         <div class="content botbuffer">
 			        
@@ -44,6 +43,7 @@
 from products a, productcategory_has_products b
 where a.idproduct = b.products_idproduct and
 productcategory_idproductcategory = 4";
+
 		    //connects to db
 		    $result = $conn->query($sql);
 		    //gets data from db and prints out products
@@ -70,6 +70,8 @@ productcategory_idproductcategory = 4";
 			    </div>
 
       </div>
+
+      </div>
 </div>
 
 	
@@ -85,6 +87,6 @@ productcategory_idproductcategory = 4";
   <script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
   <script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
 
-  
+
 </body>
 </html>

@@ -54,23 +54,29 @@
 		<!-- header -->
 		<?php include 'php/header.php'; ?>
 
-<div class="griddo griddo-pad contactpage">
-  <div class="col-1-1">
-    <h1>Kontakt</h1>
-    <hr>
-  </div>
-  <div class="col-2-3">
-    <div class="content">
-      <h3>Skriv endelig til os!</h3>
-      <form action="php/sendemail.php" method="post">
-        <input type="text" placeholder="Navn" name="name" required></input>
-        <input type="text" placeholder="Email" name="mail" required></input>
-        <textarea placeholder="Besked" name="msg" required></textarea>
-        <button class="btn" type="submit">Send besked</button>
-      </form>
+<div class="container contactpage">
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Kontakt</h1>
+      <hr>
     </div>
   </div>
-  <div class="col-1-3 smallbotbuffer">
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="content">
+        <h3>Skriv endelig til os!</h3>
+        <form action="php/sendemail.php" method="post">
+          <input type="text" placeholder="Navn" name="name" required></input>
+          <input type="text" placeholder="Email" name="mail" required></input>
+          <textarea placeholder="Besked" name="msg" required></textarea>
+          <button class="btn" type="submit">Send besked</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-4 smallbotbuffer">
       <div class="content">
         
         <div class="styledheader">
@@ -99,7 +105,11 @@
           </div>
         </div>
       </div>
+    </div>
+
   </div>
+
+  
 
 </div>
 
