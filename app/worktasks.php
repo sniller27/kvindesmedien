@@ -14,7 +14,7 @@
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
-<body class="productscoverimage">
+<body class="frontpagecover">
 
 	<div id="wrapper">
 	
@@ -27,14 +27,11 @@
 	<?php include 'php/aboutnav.php'; ?>
 
       <div class="col-md-8">
-      	<div class="styledheader">
-     		<h2>Priser og awards</h2>
+     	<div class="styledheader">
+     		<h2>Smedeopgaver</h2>
      	</div>
       	<div class="productsdescriptionbox">
-      		<p>Her er et udvalg af forskellige awards/priser vi har produceret.
-			Vi har bla. designet/produceret TV2-Zulu awarden som uddeles hvert efterår.
-			Derudover har vi produceret Hip-Hop award, Niels Jensen Prisen, Hjemløse Pokalen, priser til Novo Nordisk, Niels Brock o.a. Vi kan designe og producere awards/priser efter ønske om størrelse, udseende, antal osv.
-			</p>
+      		<p>Udover alt det du finder på de andre sider, laver Kvindesmedien også mange små og store specialopgaver på bestilling, som både er til butiksbesøgende, virksomhedsejere eller folk, der skal have lavet noget. Kvindesmedien designer b.la. inventar til butikker, barer – cafeer – tøjforretninger – samt glober og lystræer til adskillige kirker i Danmark. Nogle af Kvindesmediens specialopgaver fra kunder og virksomheder kan ses herunder.</p>
       	</div>
 
         <div class="content botbuffer">
@@ -51,7 +48,7 @@
 		    $sql = "select mainimage 
 from products a, productcategory_has_products b
 where a.idproduct = b.products_idproduct and
-productcategory_idproductcategory = 7";
+productcategory_idproductcategory IN (10,9) order by productcategory_idproductcategory desc LIMIT 31";
 
 		    //connects to db
 		    $result = $conn->query($sql);

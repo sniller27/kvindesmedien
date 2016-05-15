@@ -95,10 +95,9 @@ if($currentsite == 'index'){
        <li><a href='about.php'<?= $about ?>>Om Kvindesmedien</a>
        <ul>
            
-            <li><a href='#'>Smedeopgaver</a></li>
-            <li><a href='#'>Samarbejde</a></li>
-            <li><a href='#'>Udstillinger</a></li>
-            <li><a href='#'>Showroom</a></li>
+            <li><a href='worktasks.php'>Smedeopgaver</a></li>
+            <li><a href='cooperation.php'>Samarbejde</a></li>
+            <li><a href='exhibitions.php'>Udstillinger</a></li>
             <li><a href='awards.php'>Priser og awards</a></li>
 
        </ul>

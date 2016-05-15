@@ -401,6 +401,9 @@ html {
 .smalltopbuffer {
   margin-top: 30px;
 }
+.colorwhite {
+  color: #dddddd;
+}
 .responsiveimg img {
   max-width: 100%;
   height: auto;
@@ -470,6 +473,15 @@ textarea {
   bottom: 0;
   left: 0;
   background-color: #181818;
+}
+.backgroundlayer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px 20px 0px;
+  margin-bottom: -4px;
+}
+.backgroundlayerlight {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px 20px 0px;
 }
 /*nav to right*/
 @media screen and (min-width: 769px) {
@@ -811,11 +823,6 @@ textarea {
 }
 /** Responsive burger menu for mobile END **/
 /** FRONTPAGE **/
-.backgroundlayer {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px 0px 20px 0px;
-  margin-bottom: -4px;
-}
 .frontpagecontainer a {
   text-decoration: none;
 }

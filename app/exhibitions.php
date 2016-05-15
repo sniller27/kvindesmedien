@@ -23,35 +23,39 @@
 
 
 <div class="container smalltopbuffer backgroundlayerlight">
-	<div class="row">
+	<div class="row colorwhite">
 	<?php include 'php/aboutnav.php'; ?>
 
       <div class="col-md-8">
-      	<div class="styledheader">
-     		<h2>Priser og awards</h2>
-     	</div>
-      	<div class="productsdescriptionbox">
-      		<p>Her er et udvalg af forskellige awards/priser vi har produceret.
-			Vi har bla. designet/produceret TV2-Zulu awarden som uddeles hvert efterår.
-			Derudover har vi produceret Hip-Hop award, Niels Jensen Prisen, Hjemløse Pokalen, priser til Novo Nordisk, Niels Brock o.a. Vi kan designe og producere awards/priser efter ønske om størrelse, udseende, antal osv.
-			</p>
+      	<div class="row">
+      		<div class="col-xs-12 col-md-6">
+      			
+		     		<h2>Udstillinger</h2>
+		      		<p>Vi har løbende udstillinger i/hos forskellige firmaer/kunstforeninger.
+					Vi udstiller primært skulpturer og/eller møbelkunst.
+					Du kan altid henvende dig om en evt. udstilling og aftale nærmere.</p>
+
+      		</div>
+      		<div class="col-xs-12 col-md-6 responsiveimg">
+      			<img src="images/exhibition.jpg" alt="udstilling Gelskov Gods">
+      		</div>
+
       	</div>
+      	
 
-        <div class="content botbuffer">
-			        
-			        <div class="grid">
-					  <div class="grid-sizer"></div>
-
-
-			 <?php 
+      	<div class="row botbuffer">
+      		<div class="col-md-12">
+      			<h3>Her er et overblik over vores udstillingssteder</h3>
+      		</div>
+      			 <?php 
     
 		    require_once("php/config.php");
 		    
 		    //SQL query to select all products
-		    $sql = "select mainimage 
-from products a, productcategory_has_products b
-where a.idproduct = b.products_idproduct and
-productcategory_idproductcategory = 7";
+		    $sql = "
+		    select logourl 
+		    from exhibitionsites
+		    where logourl IS NOT NULL";
 
 		    //connects to db
 		    $result = $conn->query($sql);
@@ -61,12 +65,9 @@ productcategory_idproductcategory = 7";
 		    	?>
 		    	
 
+					  <div class="col-xs-6 col-sm-3 col-md-3 responsiveimg">
 
-					  <div class="grid-item">
-
-						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
-					    <img src="<?= $row['mainimage']; ?>">
-					    </a>
+					    <img src="<?= $row['logourl']; ?>">
 
 					  </div>
 
@@ -74,9 +75,7 @@ productcategory_idproductcategory = 7";
 		    	<?php
 		    }
 		    ?>
-
-					</div>
-			    </div>
+      	</div>
 
       </div>
 

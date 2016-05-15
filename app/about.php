@@ -17,14 +17,14 @@
 
 
 <div class="container">
-	<div class="row smalltopbuffer botbuffer">
+	<div class="row smalltopbuffer botbuffer backgroundlayerlight">
 
 				<?php include 'php/aboutnav.php'; ?>
 
-			<div class="col-md-8">
+			<div class="col-md-8 colorwhite">
 			<div class="row">
 				<div class="col-md-6">
-				<h2>Om Kvindsmedien</h2>
+				<h2>Hvem er vi?</h2>
 					<p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi leverer alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
 				</div>
 
