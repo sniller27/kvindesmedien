@@ -27,6 +27,16 @@
 	<?php include 'php/productnav.php'; ?>
 
       <div class="col-md-8">
+      	<div class="styledheader">
+	      		<h2>Lystræer og lysglober</h2>
+	    </div>
+
+      	<div class="productsdescriptionbox">
+	      	<p>Her ses et udvalg af lysglober og lystræer vi har lavet til forskellige kirker
+			og private efter ønske om udformning, materialer, anvendelse osv.
+			Du kan henvende dig og aftale at vi kommer til et møde med menighedsrådet og taler om design og levering – alt efter hvilke specifikke ønsker I måtte have.
+			Derefter laver vi et uforpligtende tilbud.</p>
+		</div>
 
         <div class="content botbuffer">
 			        

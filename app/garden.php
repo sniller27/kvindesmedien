@@ -27,6 +27,16 @@
 	<?php include 'php/productnav.php'; ?>
 
       <div class="col-md-8">
+      	<div class="styledheader">
+	      		<h2>Haven</h2>
+	    </div>
+
+      	<div class="productsdescriptionbox">
+	      	<p>Vi laver alle mulige forskellige ting til haver o. lign.
+			Blomsterespaliéer, franske altaner, altankasser, krukker,
+			div. indhegning, havelåger, grill, møbler osv.
+			Du kan henvende dig og få et tilbud på dine ønsker.</p>
+		</div>
 
         <div class="content botbuffer">
 			        

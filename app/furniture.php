@@ -27,6 +27,16 @@
 	<?php include 'php/productnav.php'; ?>
 
       <div class="col-md-8">
+      	<div class="styledheader">
+	      		<h2>Møbler</h2>
+	      	</div>
+
+	      	<div class="productsdescriptionbox">
+	      	<p>Her ses et lille udvalg af møbler og diverse andet boliginteriør. Alle vores møbler kan laves efter ønske om bestemte mål, materialer osv.
+			Derudover hjælper vi gerne med at designe møbler efter idéer.
+			Du kan altid henvende dig og få et uforpligtende tilbud.
+			</p>
+			</div>
 
         <div class="content botbuffer">
 			        

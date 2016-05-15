@@ -22,11 +22,11 @@
 		<?php include 'php/header.php'; ?>
 
 
-<div class="griddo griddo-pad">
+<div class="container smalltopbuffer">
+	<div class="row">
+	<?php include 'php/aboutnav.php'; ?>
 
-	  <?php include 'php/aboutnav.php'; ?>
-
-      <div class="col-2-3">
+      <div class="col-md-8">
 
         <div class="content botbuffer">
 			        
@@ -68,6 +68,8 @@ productcategory_idproductcategory = 7";
 
 					</div>
 			    </div>
+
+      </div>
 
       </div>
 </div>

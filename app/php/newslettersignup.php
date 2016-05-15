@@ -1,5 +1,5 @@
 <h3>Tilmeld dig vores nyhedsbrev!</h3>
-<form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+<form action="<?= $_SERVER['PHP_SELF']; ?>#newsletterform" method="post" id="newsletterform">
 	<input type="email" placeholder="E-mail" name="email" required></input>
 	<button class="newsletterbtn">Tilmeld</button>
 </form>
@@ -57,6 +57,7 @@ $headers = "From: Kvindesmedien";
 		    		$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Error: email er ikke gyldig');
 		    		//sends mail
     				mail($email, "Du er nu tilmeldt vores nyhedsbrev", $msg, $headers);
+                    echo 'Du er nu tilmeldt vores nyhedsbrev';
         
     }else {
     	echo 'Du er allerede tilmeldt vores nyhedsbrev';

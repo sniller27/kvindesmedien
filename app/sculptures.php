@@ -27,6 +27,17 @@
 	<?php include 'php/productnav.php'; ?>
 
       <div class="col-md-8">
+      	<div class="styledheader">
+	      		<h2>Skulpturer</h2>
+	    </div>
+
+      	<div class="productsdescriptionbox">
+	      	<p>Her ses et lille udvalg af vores skulpturer.
+			Vi laver skulpturer året rundt og disse kan ses og købes i vores butik.
+			Skulpturerne er unikke og spænder bredt i udtryk, størrelser osv.
+			Skulpturer kan ligeledes laves på bestilling med ønske om
+			materiale, størrelser osv.</p>
+		</div>
 
         <div class="content botbuffer">
 			        

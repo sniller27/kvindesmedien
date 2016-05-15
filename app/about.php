@@ -24,7 +24,8 @@
 			<div class="col-md-8">
 			<div class="row">
 				<div class="col-md-6">
-					<p>Vivamus egestas et risus tincidunt varius. Nunc sed accumsan metus, eget accumsan elit. Morbi sodales nisl quam, at imperdiet mauris fringilla a. Sed efficitur ex quis vestibulum scelerisque. Praesent molestie turpis libero. Proin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauroin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauroin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauris eleifend laoreet sodales.</p>
+				<h2>Om Kvindsmedien</h2>
+					<p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi laver alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
 				</div>
 
 			    <div class="col-md-6">
@@ -35,7 +36,8 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 pull-right">
-					<p>Vivamus egestas et risus tincidunt varius. Nunc sed accumsan metus, eget accumsan elit. Morbi sodales nisl quam, at imperdiet mauris fringilla a. Sed efficitur ex quis vestibulum scelerisque. Praesent molestie turpis libero. Proin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauroin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauroin commodo malesuada libero, nec pulvinar velit pulvinar nec. Mauris eleifend laoreet sodales.</p>
+				<h2>Historie</h2>
+					<p>Kvindesmedien er grundlagt af Dorte, Charlotte og Gitte tilbage i år 1997. Smedjen har altid ligget på Christiania og været det lokale samlingspunkt for kunstelskere. Igennem årene har vi arbejdet med mange forskellige og spændende opgaver, og indgået i mange forskellige former for samarbejde velvidende at udkommet bliver en overraskelse. Vi har på baggrund af vores unikke håndværk og gode samarbejde gode samarbejde tiltrukket end del opmærksomhed gennem de seneste år, hvilket har ført til god omtale i forskellige medier.</p>
 				</div>
 
 			    <div class="col-md-6">

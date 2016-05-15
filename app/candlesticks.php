@@ -27,6 +27,17 @@
 	<?php include 'php/productnav.php'; ?>
 
       <div class="col-md-8">
+      	<div class="styledheader">
+	      		<h2>Stager</h2>
+	    </div>
+
+      	<div class="productsdescriptionbox">
+	      	<p>Dette er et lille udvalg af lysestager.
+			Nogle af dem er standard-stager og andre er unika.
+			Vi har altid et bredt udvalg af lysestager til salg i vores butik.
+			Derudover kan vi altid lave lysestager på bestilling efter ønske om
+			mål, udformning osv.</p>
+		</div>
 
         <div class="content botbuffer">
 			        
