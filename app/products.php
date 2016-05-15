@@ -24,10 +24,10 @@
 
 <div class="container smalltopbuffer">
 	<div class="row">
-	<?php include 'php/productnav.php'; ?>
 
-      <div class="col-md-8">
-
+      <div class="col-md-8 pull-right">
+      <h1>Produktgalleri</h1>
+<h3>Velkommen til vores produktgalleri. Her kan du kigge på vores brede udvalg af varer, vi har lavet gennem årenes forløb.</h3>
         <div class="content botbuffer">
 			        
 			        <div class="grid">
@@ -70,6 +70,9 @@ productcategory_idproductcategory = 6";
 			    </div>
 
       </div>
+
+		<?php include 'php/productnav.php'; ?>
+
 
       </div>
 </div>

@@ -49,11 +49,11 @@
 							</a>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<a href="sculptures.php">
+							<a href="products.php">
 								<div class="frontpagebox1 responsiveimg">
-									<img src="images/zuluawards.jpg" alt="figur">
+									<img src="images/hylde2.jpg" alt="figur">
 									<div class="imagetextsmall1">
-										<h2 style="margin:0px; color:white;">Zulu awards</h2>
+										<h2 style="margin:0px; color:white;">Vi har et bredt udvalg</h2>
 									</div>
 								</div>
 							</a>

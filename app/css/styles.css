@@ -929,6 +929,8 @@ textarea {
   color: #878787 !important;
 }
 .styledheader {
+  display: inline-block;
+  width: 100%;
   background-color: #333333;
   padding: 10px;
 }

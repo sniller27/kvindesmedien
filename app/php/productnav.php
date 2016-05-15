@@ -14,7 +14,7 @@
 			    	</div>
 			    </div>
 		    </div>
-	<div class="content">
+	<div class="content botbuffer">
 	    <div class="newslettersignup">
 	    <?php
 	    	require_once("newslettersignup.php");
