@@ -365,6 +365,12 @@ textarea {
   font: inherit;
   /* 2 */
 }
+/** SCROLL FIX **/
+@media (min-width: 769px) and (max-width: 785px) {
+  #cssmenu ul {
+    display: block !important;
+  }
+}
 /** small css **/
 html,
 body {
@@ -403,6 +409,9 @@ html {
 }
 .colorwhite {
   color: #dddddd;
+}
+.nomargin {
+  margin: 0px;
 }
 .responsiveimg img {
   max-width: 100%;
@@ -925,15 +934,24 @@ textarea {
 /** CATEGORY MENU START **/
 .categorymenu {
   background-color: #D6D6D2;
-  padding: 20px;
 }
 .categorymenu a {
   text-decoration: none;
   color: #000000;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
 }
 /** ACTIVE IN CATEGORY MENU **/
 .active {
   color: #878787 !important;
+}
+.categorymenu .active {
+  color: #333333 !important;
+  font-weight: 600;
+  border-left: 5px solid #333333;
 }
 .styledheader {
   display: inline-block;

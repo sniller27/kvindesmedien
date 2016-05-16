@@ -5,10 +5,10 @@
 				    <h2>Om Kvindesmedien</h2>
 				    </div>
 				    <div class="categorymenu">
-			    	<p><a href="worktasks.php" <?= $tables ?>>Smedeopgaver</a></p>
-			    	<p><a href="cooperation.php" <?= $furniture ?>>Samarbejde</a></p>
-			    	<p><a href="exhibitions.php" <?= $furniture ?>>Udstillinger</a></p>
-			    	<p><a href="awards.php" <?= $candlesticks ?>>Awards</a></p>
+			    	<a href="worktasks.php" <?= $worktasks ?>>Smedeopgaver</a>
+			    	<a href="cooperation.php" <?= $cooperation ?>>Samarbejde</a>
+			    	<a href="exhibitions.php" <?= $exhibitions ?>>Udstillinger</a>
+			    	<a href="awards.php" <?= $awards ?>>Awards</a>
 			    	</div>
 			    </div>
 		    </div>

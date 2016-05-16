@@ -31,7 +31,7 @@
       		<div class="col-xs-12 col-md-6">
       			
 		     		<h2>Samarbejde</h2>
-		      		<p>Her hos Kvindesmedien holder vi af samarbejde og lave projekter med hinanden.</p>
+		      		<p>Her hos Kvindesmedien holder vi af samarbejde og lave projekter med hinanden. Vi har gennem tidens forløb samarbejdet med en masse forskellige organisationer og virksomheder, hvor begge parter har nydt glæde af samarbejdet. Vi mener, at man med klare forventninger, godt kommunikation og godt teamwork kan komme langt med samarbejde, og vi er derfor altid åbne over for nye.</p>
 
       		</div>
       		<div class="col-xs-12 col-md-6 responsiveimg">
@@ -43,7 +43,7 @@
 
       	<div class="row botbuffer">
       		<div class="col-md-12">
-      			<h3>Her er et overblik over tidligere kunder og partnere, vi har arbejdet med.</h3>
+      			<h3>Her er et overblik over tidligere kunder og partnere, vi har arbejdet sammen med.</h3>
       		</div>
       			 <?php 
     

@@ -1159,7 +1159,12 @@ INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`,
 INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Restaurant Celeste',null,null,null,null);
 INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Eiffelbar',null,null,null,null);
 INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Siemens','images/customers/siemens.jpg',null,null,null);
-
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Roskilde Festival','images/customers/roskildefestival.jpg',null,null,null);
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Novo Nordisk','images/customers/novonordisk.jpg',null,null,null);
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Nordisk Film','images/customers/nordiskfilm.jpg',null,null,null);
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'SKAT','images/customers/skat.jpg',null,null,null);
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Kjær Sommerfeldt','images/customers/kjaersommerfeldt.jpg',null,null,null);
+INSERT INTO `customercompanies`(`idcustomercompanies`, `companyname`, `logourl`, `phone`, `email`, `zipcodes_idzipcodes`) VALUES (null,'Daloon','images/customers/daloon.jpg',null,null,null);
 
 -- productcategory
 INSERT INTO `productcategory`(`idproductcategory`, `categoryname`) VALUES (null,'Skulpturer');

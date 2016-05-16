@@ -30,11 +30,19 @@
       	<div class="styledheader">
      		<h2>Priser og awards</h2>
      	</div>
-      	<div class="productsdescriptionbox">
-      		<p>Her er et udvalg af forskellige awards/priser vi har produceret.
+     	<div class="productsdescriptionbox">
+      	<div class="row responsiveimg">
+      	<div>
+      	<div class="col-md-6"><p>Her er et udvalg af forskellige awards/priser vi har produceret.
 			Vi har bla. designet/produceret TV2-Zulu awarden som uddeles hvert efterår.
 			Derudover har vi produceret Hip-Hop award, Niels Jensen Prisen, Hjemløse Pokalen, priser til Novo Nordisk, Niels Brock o.a. Vi kan designe og producere awards/priser efter ønske om størrelse, udseende, antal osv.
-			</p>
+			</p></div>
+      	<div class="col-md-6">
+			<img src="images/modeblogprisen.jpg">
+      		
+      	</div>
+      	</div>
+      	</div>
       	</div>
 
         <div class="content botbuffer">

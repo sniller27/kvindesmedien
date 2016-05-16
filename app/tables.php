@@ -26,7 +26,7 @@
 	<div class="row">
 	<?php include 'php/productnav.php'; ?>
 
-      	<div class="col-md-8">
+      	<div class="col-md-9">
 
 	      	<div class="styledheader">
 	      		<h2>Borde</h2>

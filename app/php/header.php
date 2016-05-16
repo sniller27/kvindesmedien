@@ -1,11 +1,13 @@
 <?php
+//CATEGORIES
 //active page in navbar
 $frontpage = '';
 $products = '';
 $about = '';
 $contact = '';
 
-//productcategory
+//SUBCATEGORIES
+//productcategories
 $tables = '';
 $furniture = '';
 $candlesticks = '';
@@ -13,6 +15,11 @@ $light = '';
 $sculptures = '';
 $garden = '';
 
+//aboutcategories
+$worktasks = '';
+$cooperation = '';
+$exhibitions = '';
+$awards = '';
 
 //chooses id for active page
 $currentsite = basename($_SERVER['PHP_SELF'], ".php");
@@ -62,6 +69,21 @@ if($currentsite == 'index'){
     $products = 'id="active"';
     $garden = 'class="active"';
 
+}else if($currentsite == 'worktasks'){
+
+    $about = 'id="active"';
+    $worktasks = 'class="active"';
+
+}else if($currentsite == 'cooperation'){
+
+    $about = 'id="active"';
+    $cooperation = 'class="active"';
+
+}else if($currentsite == 'exhibitions'){
+
+    $about = 'id="active"';
+    $exhibitions = 'class="active"';
+
 }else if($currentsite == 'awards'){
 
     $about = 'id="active"';
@@ -95,10 +117,10 @@ if($currentsite == 'index'){
        <li><a href='about.php' <?= $about ?>>Om Kvindesmedien</a>
        <ul>
            
-            <li><a href='worktasks.php'>Smedeopgaver</a></li>
-            <li><a href='cooperation.php'>Samarbejde</a></li>
-            <li><a href='exhibitions.php'>Udstillinger</a></li>
-            <li><a href='awards.php'>Priser og awards</a></li>
+            <li><a href='worktasks.php' <?= $worktasks ?>>Smedeopgaver</a></li>
+            <li><a href='cooperation.php' <?= $cooperation ?>>Samarbejde</a></li>
+            <li><a href='exhibitions.php' <?= $exhibitions ?>>Udstillinger</a></li>
+            <li><a href='awards.php' <?= $awards ?>>Priser og awards</a></li>
 
        </ul>
        </li>

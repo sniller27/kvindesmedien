@@ -45,7 +45,7 @@
 
       	<div class="row botbuffer">
       		<div class="col-md-12">
-      			<h3>Her er et overblik over vores udstillingssteder</h3>
+      			<h3>Her et overblik over de organisationer, vi har haft udstillinger med.</h3>
       		</div>
       			 <?php 
     

@@ -86,7 +86,38 @@ $("#cssmenu").menumaker({
 
 
 });
-;/*!
+;function initialize() {
+    var position = new google.maps.LatLng(55.674270, 12.600858);
+    var myOptions = {
+      zoom: 16,
+    scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: false,
+      center: position,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(
+        document.getElementById("map_canvas"),
+        myOptions);
+ 
+    var marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title:"Kvindesmedien"
+    });  
+ 
+    var contentString = 'Kvindesmedien Aps <br> Mælkevejen 83 E, 1440 København';
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+ 
+//    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+//    });
+ 
+  };/*!
  * Masonry PACKAGED v4.0.0
  * Cascading grid layout library
  * http://masonry.desandro.com
@@ -106,4 +137,54 @@ var $grid = $('.grid').imagesLoaded( function() {
     percentPosition: true,
     columnWidth: '.grid-sizer'
   }); 
-});
+});;// mail regex method
+  function validateEmail(email) { 
+      var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+  }
+
+  function validateContactForm() {
+      var navn = document.forms["contactform"]["name"].value;
+      var email = document.forms["contactform"]["mail"].value;
+      var besked = document.forms["contactform"]["msg"].value;
+      
+      //tjekker om navn er angivet
+      if (navn == "") {
+          alert("Du skal angive dit navn");
+          return false;
+          
+      //tjekker om email er angivet
+      }else if(!validateEmail(email)){
+         
+          alert("Du skal angive din email");
+          return false;
+          
+      //tjekker om titel er angivet
+      }else if(besked == ""){
+         
+          alert("Din besked skal indeholde noget");
+          return false;
+      
+      }
+  };// mail regex method
+function validateEmail(email) { 
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+function validateNewsletterForm() {
+  var email = document.forms["newsletterform"]["email"].value;
+
+  //tjekker om email er angivet
+  if(email == ''){
+     
+      alert("Angiv venligst mail");
+      return false;
+      
+  }else if(!validateEmail(email)){
+     
+      alert("Tjek venligst om din mail er skrevet korrekt");
+      return false;
+      
+  }
+}

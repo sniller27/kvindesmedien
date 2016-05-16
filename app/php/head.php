@@ -1,9 +1,11 @@
 <!-- Meta tags -->
 <meta charset="utf-8">
-<meta name="author" content="Kvindesmedien">
-<!--avoid compatability mode in older versions of IE-->
+<meta name="author" content="Jonas F. Jakobsen">
+
+<!-- Avoid compatability mode in older versions of IE-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--detect screen and device-->
+
+<!-- Detect screen and device -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicons -->
@@ -13,12 +15,10 @@
 <!-- CSS -->
 <link href="css/styles.css" rel="stylesheet">
 
-
-<!--jQuery-->
+<!-- jQuery -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
-<!-- Simple Grid -->
-<!-- <link rel="stylesheet" type="text/css" href="less/simplegrid.css"> -->
+<!-- Bootstrap 12 grid -->
 <link rel="stylesheet" type="text/css" href="less/grid12.css">
 
 <!-- JavaScript -->
