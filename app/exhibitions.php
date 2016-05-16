@@ -53,7 +53,7 @@
 		    
 		    //SQL query to select all products
 		    $sql = "
-		    select logourl 
+		    select logourl, name 
 		    from exhibitionsites
 		    where logourl IS NOT NULL";
 
@@ -67,7 +67,7 @@
 
 					  <div class="col-xs-6 col-sm-3 col-md-3 responsiveimg">
 
-					    <img src="<?= $row['logourl']; ?>">
+					    <img src="<?= $row['logourl']; ?>" alt="<?= $row['name']; ?>">
 
 					  </div>
 

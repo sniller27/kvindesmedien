@@ -66,7 +66,7 @@ productcategory_idproductcategory = 3";
 					  <div class="grid-item">
 
 						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
-					    <img src="<?= $row['mainimage']; ?>">
+					    <img src="<?= $row['mainimage']; ?>" alt="lyshåndværk">
 					    </a>
 
 					  </div>

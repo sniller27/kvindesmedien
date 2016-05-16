@@ -68,7 +68,7 @@
 						  <div class="grid-item">
 
 							<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
-						    <img src="<?= $row['mainimage']; ?>">
+						    <img src="<?= $row['mainimage']; ?>" alt="bord">
 						    </a>
 
 						  </div>

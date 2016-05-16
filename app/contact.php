@@ -68,8 +68,8 @@
       <div class="content">
         <h3>Skriv endelig til os!</h3>
         <form action="php/sendemail.php" method="post">
-          <input type="text" placeholder="Navn" name="name" required></input>
-          <input type="text" placeholder="Email" name="mail" required></input>
+          <input type="text" placeholder="Navn" name="name" required />
+          <input type="text" placeholder="Email" name="mail" required />
           <textarea placeholder="Besked" name="msg" required></textarea>
           <button class="btn" type="submit">Send besked</button>
         </form>

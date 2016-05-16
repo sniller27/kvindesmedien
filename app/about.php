@@ -30,7 +30,7 @@
 
 			    <div class="col-md-6">
 				    <div class="content responsiveimg">
-				    <img src="images/ejere.jpg">
+				    <img src="images/ejere.jpg" alt="Kvindesmedien med hammer">
 				    </div>
 			    </div>
 			</div>
@@ -42,7 +42,7 @@
 
 			    <div class="col-md-6">
 				    <div class="content responsiveimg">
-				    <img src="images/historie.jpg">
+				    <img src="images/historie.jpg" alt="fællesbillede af Kvindesmedien">
 				    </div>
 			    </div>
 			</div>

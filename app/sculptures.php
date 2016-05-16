@@ -67,7 +67,7 @@ productcategory_idproductcategory = 1 LIMIT 40";
 					  <div class="grid-item">
 
 						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
-					    <img src="<?= $row['mainimage']; ?>">
+					    <img src="<?= $row['mainimage']; ?>" alt="skulptur">
 					    </a>
 
 					  </div>

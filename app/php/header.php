@@ -92,7 +92,7 @@ if($currentsite == 'index'){
 
           </ul>
        </li>
-       <li><a href='about.php'<?= $about ?>>Om Kvindesmedien</a>
+       <li><a href='about.php' <?= $about ?>>Om Kvindesmedien</a>
        <ul>
            
             <li><a href='worktasks.php'>Smedeopgaver</a></li>
@@ -108,4 +108,4 @@ if($currentsite == 'index'){
     </div>
 
 </div>
-<a href="index.php"><img src="images/websitelogo.png" class="logotop"></a>
+<a href="index.php"><img src="images/websitelogo.png" alt="Kvindesmedien logo" class="logotop"></a>

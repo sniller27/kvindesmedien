@@ -41,7 +41,7 @@
 						<div class="col-md-4 col-sm-6 smallbotbuffer">
 							<a href="sculptures.php">
 								<div class="frontpagebox1 responsiveimg">
-									<img src="images/welding.jpg" alt="figur">
+									<img src="images/welding.jpg" alt="smedning">
 									<div class="imagetextsmall1">
 										<h2 style="margin:0px; color:white;">Få lavet dit eget design</h2>
 									</div>
@@ -51,7 +51,7 @@
 						<div class="col-md-4 col-sm-6">
 							<a href="products.php">
 								<div class="frontpagebox1 responsiveimg">
-									<img src="images/hylde2.jpg" alt="figur">
+									<img src="images/hylde.jpg" alt="kommode">
 									<div class="imagetextsmall1">
 										<h2 style="margin:0px; color:white;">Vi har et bredt udvalg</h2>
 									</div>
@@ -68,7 +68,7 @@
 					    <a href="about.php">Læse mere her...</a>
 					    </div>
 						<div class="col-md-6">
-					      <img src="images/kvindesmedien.jpg" style="width: 100%">
+					      <img src="images/kvindesmedien.jpg" alt="Kvindesmedien butik" style="width: 100%">
 					    </div>
 				    </div>
 				    

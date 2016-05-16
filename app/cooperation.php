@@ -43,7 +43,7 @@
 
       	<div class="row botbuffer">
       		<div class="col-md-12">
-      			<h3>Her er et overblik over vores tidligere kunder, vi har samarbejdet med.</h3>
+      			<h3>Her er et overblik over tidligere kunder og partnere, vi har arbejdet med.</h3>
       		</div>
       			 <?php 
     
@@ -51,7 +51,7 @@
 		    
 		    //SQL query to select all products
 		    $sql = "
-		    select logourl 
+		    select logourl, companyname
 		    from customercompanies
 		    where logourl IS NOT NULL";
 
@@ -65,7 +65,7 @@
 
 					  <div class="col-xs-6 col-sm-3 col-md-3 responsiveimg">
 
-					    <img src="<?= $row['logourl']; ?>">
+					    <img src="<?= $row['logourl']; ?>" alt="<?= $row['companyname']; ?>">
 
 					  </div>
 

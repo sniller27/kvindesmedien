@@ -1,6 +1,6 @@
 <h3>Tilmeld dig vores nyhedsbrev!</h3>
 <form action="<?= $_SERVER['PHP_SELF']; ?>#newsletterform" method="post" id="newsletterform">
-	<input type="email" placeholder="E-mail" name="email" required></input>
+	<input type="email" placeholder="E-mail" name="email" required />
 	<button class="newsletterbtn">Tilmeld</button>
 </form>
 
