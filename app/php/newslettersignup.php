@@ -10,7 +10,7 @@
 
 	require_once("php/config.php");
 
-	$emailsignup = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Error: email er ikke gyldig');
+	$emailsignup = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Tjek venligst om din mail er skrevet korrekt');
 
     //SQL query that select product stock
     $sql = "select email from newsletters where email = ? LIMIT 1";
@@ -54,7 +54,7 @@ Tingfinderen
 EOD;
 $headers = "From: Kvindesmedien";
 
-		    		$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Error: email er ikke gyldig');
+		    		$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) or die('Tjek venligst om din mail er skrevet korrekt');
 		    		//sends mail
     				mail($email, "Du er nu tilmeldt vores nyhedsbrev", $msg, $headers);
                     echo 'Du er nu tilmeldt vores nyhedsbrev';

@@ -74,6 +74,7 @@
 				    
 
 			    </div>
+			    <hr>
 			    <div class="row">
 				    <div class="col-md-12 newsletterfrontpage">
 					    <?php require_once("php/newslettersignup.php"); ?>
