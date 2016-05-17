@@ -6,10 +6,9 @@
 
 	<?php include 'php/head.php'; ?>
 
-<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
+<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
 
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
@@ -23,7 +22,7 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row">
+	<div class="row botbuffer">
 	<?php include 'php/productnav.php'; ?>
 
       	<div class="col-md-9">
@@ -38,9 +37,8 @@
 			Derudover hjælper vi gerne med at designe møbler efter idéer.
 			Du kan altid henvende dig og få et uforpligtende tilbud.</p>
 			<p>Nogle af vores borde er også af sorbus design, som vi har udviklet sammen med Sorbus Design. Har du spørgsmål vedr. borde af sorbus design, så kan du spørge os eller kontakte Sorbus Design på mail kontakt@sorbusdesign.dk eller besøge deres hjemmeside www.sorbusdesign.dk</p>
-			</div>
 
-	        <div class="content botbuffer">
+			<div class="content">
 				        
 				    <div class="grid">
 						  <div class="grid-sizer"></div>
@@ -80,6 +78,9 @@
 
 					</div>
 			    </div>
+			</div>
+
+	        
 
       	</div>
 
@@ -91,7 +92,7 @@
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

@@ -100,17 +100,12 @@ if($currentsite == 'index'){
        <li><a href='index.php' <?= $frontpage ?>>Forside</a></li>
        <li class='active'><a href='products.php' <?= $products ?>>Produkter</a>
           <ul>
-             <li><a href='tables.php'>Borde</a>
-                <!-- <ul>
-                   <li><a href='#'>Sub Product</a></li>
-                   <li><a href='#'>Sub Product</a></li>
-                </ul> -->
-             </li>
-             <li><a href='furniture.php'>Møbler</a></li>
-             <li><a href='candlesticks.php'>Stager</a></li>
-             <li><a href='light.php'>Lysglober</a></li>
-             <li><a href='sculptures.php'>Skulpturer</a></li>
-             <li><a href='garden.php'>Haven</a></li>
+             <li><a href='tables.php' <?= $tables ?>>Borde</a></li>
+             <li><a href='furniture.php' <?= $furniture ?>>Møbler</a></li>
+             <li><a href='candlesticks.php' <?= $candlesticks ?>>Stager</a></li>
+             <li><a href='light.php' <?= $light ?>>Lysglober</a></li>
+             <li><a href='sculptures.php' <?= $sculptures ?>>Skulpturer</a></li>
+             <li><a href='garden.php' <?= $garden ?>>Haven</a></li>
 
           </ul>
        </li>

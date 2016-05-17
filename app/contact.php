@@ -74,8 +74,8 @@
       </div>
     </div>
 
-    	<!-- Footer -->
-    <div id="footer"></div>
+    <!-- Footer -->
+    <?php require_once 'php/footer.php'; ?>
 
 	</div>
 

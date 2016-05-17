@@ -6,10 +6,9 @@
 
 	<?php include 'php/head.php'; ?>
 
-<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
+<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
 
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
@@ -22,8 +21,8 @@
 		<?php include 'php/header.php'; ?>
 
 
-<div class="container smalltopbuffer backgroundlayerlight">
-	<div class="row">
+<div class="container smalltopbuffer">
+	<div class="row backgroundlayerlight botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
       <div class="col-md-8">
@@ -32,20 +31,13 @@
      	</div>
      	<div class="productsdescriptionbox">
       	<div class="row responsiveimg">
-      	<div>
-      	<div class="col-md-6"><p>Her er et udvalg af forskellige awards/priser vi har produceret.
+      	<div class="col-md-12">
+      		<p>Her er et udvalg af forskellige awards/priser vi har produceret.
 			Vi har bla. designet/produceret TV2-Zulu awarden som uddeles hvert efterår.
 			Derudover har vi produceret Hip-Hop award, Niels Jensen Prisen, Hjemløse Pokalen, priser til Novo Nordisk, Niels Brock o.a. Vi kan designe og producere awards/priser efter ønske om størrelse, udseende, antal osv.
-			</p></div>
-      	<div class="col-md-6">
-			<img src="images/modeblogprisen.jpg">
-      		
-      	</div>
-      	</div>
-      	</div>
-      	</div>
+			</p>
 
-        <div class="content botbuffer">
+			<div class="content">
 			        
 			        <div class="grid">
 					  <div class="grid-sizer"></div>
@@ -84,7 +76,15 @@ productcategory_idproductcategory = 7";
 		    ?>
 
 					</div>
-			    </div>
+			</div>
+
+		</div>
+      	
+
+      	</div>
+      	</div>
+
+        
 
       </div>
 
@@ -96,7 +96,7 @@ productcategory_idproductcategory = 7";
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

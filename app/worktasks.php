@@ -6,10 +6,9 @@
 
 	<?php include 'php/head.php'; ?>
 
-<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
+<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
 
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
@@ -22,8 +21,8 @@
 		<?php include 'php/header.php'; ?>
 
 
-<div class="container smalltopbuffer backgroundlayerlight">
-	<div class="row">
+<div class="container smalltopbuffer">
+	<div class="row backgroundlayerlight botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
       <div class="col-md-8">
@@ -32,9 +31,8 @@
      	</div>
       	<div class="productsdescriptionbox">
       		<p>Udover alt det du finder på de andre sider, laver Kvindesmedien også mange små og store specialopgaver på bestilling, som både er til butiksbesøgende, virksomhedsejere eller folk, der skal have lavet noget. Kvindesmedien designer b.la. inventar til butikker, barer – cafeer – tøjforretninger – samt glober og lystræer til adskillige kirker i Danmark. Nogle af Kvindesmediens specialopgaver fra kunder og virksomheder kan ses herunder.</p>
-      	</div>
 
-        <div class="content botbuffer">
+      		<div class="content">
 			        
 			        <div class="grid">
 					  <div class="grid-sizer"></div>
@@ -73,7 +71,11 @@ productcategory_idproductcategory IN (10,9) order by productcategory_idproductca
 		    ?>
 
 					</div>
-			    </div>
+			</div>
+
+      	</div>
+
+        
 
       </div>
 
@@ -85,7 +87,7 @@ productcategory_idproductcategory IN (10,9) order by productcategory_idproductca
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

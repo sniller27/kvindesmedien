@@ -377,6 +377,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 p {
   line-height: 1.5;
@@ -484,12 +485,12 @@ textarea {
   background-color: #181818;
 }
 .backgroundlayer {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #181818;
   padding: 20px 0px 20px 0px;
   margin-bottom: -4px;
 }
 .backgroundlayerlight {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #181818;
   padding: 20px 0px 20px 0px;
 }
 /*nav to right*/
@@ -892,13 +893,15 @@ textarea {
 }
 .newsletterfrontpage {
   padding: 10px 0px 30px 0px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #181818;
   text-align: center;
   color: #D6D6D2;
 }
 .newsletterfrontpage input {
   margin: auto;
   margin-bottom: 10px;
+  max-width: 280px;
+  width: 100%;
 }
 /** MASONRY START **/
 .grid {
@@ -971,7 +974,7 @@ textarea {
 /** NEWSLETTER **/
 .newslettersignup {
   color: #D6D6D2;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #333333;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -984,6 +987,10 @@ textarea {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.newslettersignup input {
+  max-width: 280px;
+  width: 100%;
 }
 .newsletterbtn {
   font-family: Arial;

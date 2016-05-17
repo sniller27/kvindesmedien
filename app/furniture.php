@@ -6,10 +6,9 @@
 
 	<?php include 'php/head.php'; ?>
 
-<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
+<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
 
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
@@ -23,10 +22,10 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row">
+	<div class="row botbuffer">
 	<?php include 'php/productnav.php'; ?>
 
-      <div class="col-md-8">
+      <div class="col-md-9">
       	<div class="styledheader">
 	      		<h2>Møbler</h2>
 	      	</div>
@@ -36,9 +35,8 @@
 			Derudover hjælper vi gerne med at designe møbler efter idéer.
 			Du kan altid henvende dig og få et uforpligtende tilbud.
 			</p>
-			</div>
 
-        <div class="content botbuffer">
+			<div class="content">
 			        
 			        <div class="grid">
 					  <div class="grid-sizer"></div>
@@ -77,7 +75,10 @@ productcategory_idproductcategory = 5";
 		    ?>
 
 					</div>
-			    </div>
+		</div>
+			</div>
+
+        
 
       </div>
 
@@ -89,7 +90,7 @@ productcategory_idproductcategory = 5";
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

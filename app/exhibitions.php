@@ -6,11 +6,6 @@
 
 	<?php include 'php/head.php'; ?>
 
-<!-- <script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script> -->
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5">
-
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
@@ -22,8 +17,8 @@
 		<?php include 'php/header.php'; ?>
 
 
-<div class="container smalltopbuffer backgroundlayerlight">
-	<div class="row colorwhite">
+<div class="container smalltopbuffer">
+	<div class="row colorwhite backgroundlayerlight botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
       <div class="col-md-8">
@@ -87,7 +82,7 @@
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

@@ -53,14 +53,10 @@
 		      
 	</div>
 </div>
-<!-- end big griddo -->
-
-	
-
 
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<?php require_once 'php/footer.php'; ?>
 
 	</div>
   

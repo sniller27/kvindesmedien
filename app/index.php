@@ -74,17 +74,16 @@
 				    
 
 			    </div>
-			</div>
-			<div class="container">
-				<div class="row botbuffer">
+			    <div class="row">
 				    <div class="col-md-12 newsletterfrontpage">
 					    <?php require_once("php/newslettersignup.php"); ?>
 				    </div>
-				    </div>
+				</div>
 			</div>
+			
 		
 		<!-- Footer -->
-		<div id="footer"></div>
+		<?php require_once 'php/footer.php'; ?>
 	</div>
 
 <script type="text/javascript" src="js/scripts/validatenewsletterform.js"></script>
