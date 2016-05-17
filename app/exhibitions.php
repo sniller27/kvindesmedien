@@ -18,14 +18,18 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row colorwhite backgroundlayerlight botbuffer">
+	<div class="row botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
-      <div class="col-md-8">
+      <div class="col-md-9">
+	      <div class="styledheader">
+			     		<h2>Udstillinger</h2>
+	      </div>
+	      <div class="productsdescriptionbox">
+
       	<div class="row">
       		<div class="col-xs-12 col-md-6">
       			
-		     		<h2>Udstillinger</h2>
 		      		<p>Vi har løbende udstillinger i/hos forskellige firmaer/kunstforeninger.
 					Vi udstiller primært skulpturer og/eller møbelkunst.
 					Du kan altid henvende dig om en evt. udstilling og aftale nærmere.</p>
@@ -71,7 +75,7 @@
 		    }
 		    ?>
       	</div>
-
+      	</div>
       </div>
 
       </div>

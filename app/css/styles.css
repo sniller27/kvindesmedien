@@ -420,9 +420,9 @@ html {
 }
 /** BUTTONS START **/
 .btn {
-  font-family: Arial;
+  font-family: Lato;
   color: #dddddd;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(51, 51, 51, 0.9);
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -470,11 +470,12 @@ textarea {
   background-image: url(../images/christiania3.jpg);
 }
 .productscoverimage {
-  background-image: url(../images/bricktexture.jpg);
+  background-color: #333333;
+  /**background-image: url(../images/bricktexture.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;**/
 }
 #footer {
   width: 100%;
@@ -528,8 +529,8 @@ textarea {
   display: none;
 }
 #cssmenu {
-  font-family: Montserrat, sans-serif;
-  background: rgba(51, 51, 51, 0.9);
+  font-family: Lato, sans-serif;
+  background: #1F1F1F;
 }
 #cssmenu > ul > li {
   float: left;
@@ -558,7 +559,7 @@ textarea {
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: #c78c00;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -623,11 +624,11 @@ textarea {
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
   width: 170px;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: #dddddd;
   font-weight: 400;
-  background: #333333;
+  background: #1F1F1F;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -829,7 +830,7 @@ textarea {
   }
 }
 #active {
-  color: #878787 !important;
+  color: #c78c00 !important;
 }
 /** Responsive burger menu for mobile END **/
 /** FRONTPAGE **/
@@ -943,23 +944,21 @@ textarea {
   color: #000000;
   display: block;
   padding: 15px;
-  border-bottom: 1px solid #333333;
-  border-right: 1px solid #333333;
-  border-left: 1px solid #333333;
 }
 /** ACTIVE IN CATEGORY MENU **/
 .active {
   color: #878787 !important;
 }
 .categorymenu .active {
-  color: #333333 !important;
+  color: #1F1F1F !important;
   font-weight: 600;
-  border-left: 5px solid #333333;
+  border-left: 5px solid #c78c00;
+  background-color: #b5b5b5;
 }
 .styledheader {
   display: inline-block;
   width: 100%;
-  background-color: #333333;
+  background-color: #1F1F1F;
   padding: 10px;
 }
 .styledheader h2 {
@@ -971,10 +970,14 @@ textarea {
   padding: 10px;
   margin-bottom: 20px;
 }
+.productsdescriptionbox h2 {
+  line-height: 0;
+  padding-bottom: 7px;
+}
 /** NEWSLETTER **/
 .newslettersignup {
   color: #D6D6D2;
-  background-color: #333333;
+  background-color: #1F1F1F;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -993,7 +996,7 @@ textarea {
   width: 100%;
 }
 .newsletterbtn {
-  font-family: Arial;
+  font-family: Lato;
   color: #dddddd;
   font-size: 22px;
   background: rgba(51, 51, 51, 0.9);

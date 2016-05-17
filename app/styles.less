@@ -425,8 +425,10 @@ textarea {
 }
 /** small css **/
 @blackrgb : rgba(51, 51, 51, 0.9);
-@whitetext : #dddddd;
+@white : #dddddd;
+@verydarkgray : #1F1F1F;
 @darkgray : #333333;
+@gold : #c78c00;
 
 @whitegray : #D6D6D2;
 @whitegray2 : #dddddd;
@@ -483,9 +485,9 @@ html {
 
 /** BUTTONS START **/
 .btn {
-  font-family: Arial;
+  font-family: Lato;
   color: #dddddd;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(51, 51, 51, 0.9);
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -534,11 +536,12 @@ textarea {
   background-image: url(../images/christiania3.jpg);
 }
 .productscoverimage {
-  background-image: url(../images/bricktexture.jpg);
+  background-color: @darkgray;
+  /**background-image: url(../images/bricktexture.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position:center;**/
 }
 #footer {
     width:100%;
@@ -598,8 +601,8 @@ textarea {
   display: none;
 }
 #cssmenu {
-  font-family: Montserrat, sans-serif;
-  background: @blackrgb;
+  font-family: Lato, sans-serif;
+  background: @verydarkgray;
 }
 #cssmenu > ul > li {
   float: left;
@@ -628,7 +631,7 @@ textarea {
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: @gold;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -699,11 +702,11 @@ textarea {
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
   width: 170px;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: #dddddd;
   font-weight: 400;
-  background: #333333;
+  background: @verydarkgray;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -912,7 +915,8 @@ textarea {
   }
 }
 #active {
-  color: #878787 !important;
+  color: @gold !important;
+
 }
 /** Responsive burger menu for mobile END **/
 
@@ -1042,9 +1046,6 @@ textarea {
   color: #000000;
   display: block;
   padding: 15px;
-  border-bottom: 1px solid #333333;
-  border-right: 1px solid #333333;
-  border-left: 1px solid #333333;
   }
 }
 
@@ -1054,16 +1055,17 @@ textarea {
 }
 .categorymenu {
   .active {
-  color: #333333 !important;
+  color: @verydarkgray !important;
   font-weight: 600;
-  border-left: 5px solid #333333;
+  border-left: 5px solid @gold;
+  background-color: #b5b5b5;
   }
 }
 //PRODUCT PAGE HEADER
 .styledheader {
   display: inline-block;
   width: 100%;
-  background-color: #333333;
+  background-color: @verydarkgray;
   padding: 10px;
   h2 {
   color: #dddddd;
@@ -1075,11 +1077,15 @@ textarea {
   background-color: #D6D6D2;
   padding: 10px;
   margin-bottom: 20px;
+  h2 {
+  line-height: 0;
+  padding-bottom: 7px;
+  }
 }
 /** NEWSLETTER **/
 .newslettersignup {
   color: #D6D6D2;
-  background-color: #333333;
+  background-color: @verydarkgray;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1098,7 +1104,7 @@ textarea {
   }
 }
 .newsletterbtn {
-  font-family: Arial;
+  font-family: Lato;
   color: #dddddd;
   font-size: 22px;
   background: rgba(51, 51, 51, 0.9);

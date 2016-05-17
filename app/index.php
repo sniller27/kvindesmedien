@@ -7,7 +7,7 @@
 	<?php include 'php/head.php'; ?>
 
 </head>
-<body class="frontpagecover">
+<body class="productscoverimage">
 
 	<div id="wrapper">
 

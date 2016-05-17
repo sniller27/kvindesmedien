@@ -1,4 +1,4 @@
-<div class="col-md-4 smallbotbuffer">
+<div class="col-md-3 smallbotbuffer">
 		    <div class="content">
 			    <div>
 				    <div class="styledheader">

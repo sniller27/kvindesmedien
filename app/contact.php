@@ -20,17 +20,12 @@
 		<?php include 'php/header.php'; ?>
 
     <div class="container contactpage">
-      
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Kontakt</h1>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row">
+      <div class="row smalltopbuffer">
         <div class="col-md-8">
-          <div class="content">
+          <div class="styledheader">
+            <h2>Kontakt</h2>
+          </div>
+          <div class="content productsdescriptionbox">
             <h4>Hos Kvindesmedien er vi altid åbne overfor henvendelser. Besøg os, ring eller skriv til os over mail eller brug kontaktformularen nedenunder.</h4>
             <form action="php/sendemail.php" method="post" onsubmit="return validateContactForm()" name="contactform">
               <input type="text" placeholder="Navn" name="name" aria-label="name"  required />

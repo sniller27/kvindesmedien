@@ -17,15 +17,25 @@
 
 
 <div class="container">
-	<div class="row smalltopbuffer botbuffer backgroundlayerlight">
+	<div class="row smalltopbuffer botbuffer">
 
 				<?php include 'php/aboutnav.php'; ?>
 
-			<div class="col-md-8 colorwhite">
+			<div class="col-md-9">
+				<div class="styledheader">
+					<h2>Om Kvindesmedien</h2>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+			<div class="productsdescriptionbox">
 			<div class="row">
+
 				<div class="col-md-6">
-				<h2>Hvem er vi?</h2>
-					<p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi leverer alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
+					<div>
+						<h2>Hvem er vi?</h2>
+						<p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi leverer alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
+					</div>
 				</div>
 
 			    <div class="col-md-6">
@@ -33,6 +43,7 @@
 				    <img src="images/ejere.jpg" alt="Kvindesmedien med hammer">
 				    </div>
 			    </div>
+
 			</div>
 			<div class="row">
 				<div class="col-md-6 pull-right">
@@ -46,7 +57,7 @@
 				    </div>
 			    </div>
 			</div>
-		
+		</div>
 
 				
 		    </div>

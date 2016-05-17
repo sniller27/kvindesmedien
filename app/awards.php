@@ -22,10 +22,10 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row backgroundlayerlight botbuffer">
+	<div class="row botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
-      <div class="col-md-8">
+      <div class="col-md-9">
       	<div class="styledheader">
      		<h2>Priser og awards</h2>
      	</div>

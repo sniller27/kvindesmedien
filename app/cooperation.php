@@ -18,14 +18,17 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row colorwhite backgroundlayerlight botbuffer">
+	<div class="row botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
-      <div class="col-md-8">
+      <div class="col-md-9">
+      	<div class="styledheader">
+			<h2>Samarbejde</h2>
+		</div>
+<div class="productsdescriptionbox">
       	<div class="row">
       		<div class="col-xs-12 col-md-6">
       			
-		     		<h2>Samarbejde</h2>
 		      		<p>Her hos Kvindesmedien holder vi af samarbejde og lave projekter med hinanden. Vi har gennem tidens forløb samarbejdet med en masse forskellige organisationer og virksomheder, hvor begge parter har nydt glæde af samarbejdet. Vi mener, at man med klare forventninger, godt kommunikation og godt teamwork kan komme langt med samarbejde, og vi er derfor altid åbne over for nye.</p>
 
       		</div>
@@ -69,7 +72,7 @@
 		    }
 		    ?>
       	</div>
-
+		</div>
       </div>
 
       </div>

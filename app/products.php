@@ -25,8 +25,11 @@
 	<div class="row">
 
       <div class="col-md-9 pull-right">
-      <h1>Produktgalleri</h1>
-<h3>Velkommen til vores produktgalleri. Her kan du kigge på vores brede udvalg af varer, vi har lavet gennem årenes forløb.</h3>
+      <div class="styledheader">
+      <h2>Produkter</h2>
+      </div>
+      <div class="productsdescriptionbox">
+<p>Velkommen til vores produktgalleri. Her kan du kigge på vores brede udvalg af varer, vi har lavet gennem årenes forløb.</p>
         <div class="content botbuffer">
 			        
 			        <div class="grid">
@@ -67,7 +70,7 @@ productcategory_idproductcategory = 6";
 
 					</div>
 			    </div>
-
+			</div>
       </div>
 
 		<?php include 'php/productnav.php'; ?>

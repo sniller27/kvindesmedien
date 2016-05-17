@@ -13,7 +13,7 @@
 <script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
-<body class="frontpagecover">
+<body class="productscoverimage">
 
 	<div id="wrapper">
 	
@@ -22,10 +22,10 @@
 
 
 <div class="container smalltopbuffer">
-	<div class="row backgroundlayerlight botbuffer">
+	<div class="row botbuffer">
 	<?php include 'php/aboutnav.php'; ?>
 
-      <div class="col-md-8">
+      <div class="col-md-9">
      	<div class="styledheader">
      		<h2>Smedeopgaver</h2>
      	</div>
