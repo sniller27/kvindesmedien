@@ -1,5 +1,4 @@
 /** medium **/
-
 @media only screen and (min-width: 768px) {
 	.logotop {
 	width: 120px;
@@ -10,6 +9,9 @@
 	  background-color: rgba(0, 0, 0, 0.8);
 	  position: relative;
 	  top: 162px;
+	  h2, p {
+	  	color: @white;
+	  }
 	}
 	.frontpagesemicover {
 	  background: url(../images/christianiabanner.jpg);
@@ -18,4 +20,14 @@
 	  background-position:center;
 	  height: 300px;
 	}
+}
+@media only screen and (max-width: 992px) {
+
+	.topnewsletter {
+		display: none;
+	}
+	.content {
+		margin-bottom: 30px;
+	}
+	
 }

@@ -2,7 +2,7 @@
 		    <div class="content">
 			    <div>
 				    <div class="styledheader">
-				    <h2>Produkter</h2>
+				    <a href="products.php" <?= $productstwo ?>><h2>Produkter</h2></a>
 				    </div>
 				    <div class="categorymenu">
 			    	<a href="tables.php" <?= $tables ?>>Borde</a>
@@ -14,8 +14,8 @@
 			    	</div>
 			    </div>
 		    </div>
-	<div class="content botbuffer">
-	    <div class="newslettersignup">
+	<div class="content topnewsletter">
+	    <div class="newslettersignup <?php if(isset($_GET['respond'])){print('respond');}; ?>">
 	    <?php
 	    	require_once("newslettersignup.php");
 	    ?>

@@ -5,14 +5,13 @@
 }
 }
 /** small css **/
-@blackrgb : rgba(51, 51, 51, 0.9);
+//COLORS
 @white : #dddddd;
 @verydarkgray : #1F1F1F;
 @darkgray : #333333;
 @gold : #c78c00;
 
-@whitegray : #D6D6D2;
-@whitegray2 : #dddddd;
+@lightgray : #b5b5b5;
 
 html,
 body {
@@ -51,7 +50,10 @@ html {
   margin-top: 30px;
 }
 .colorwhite {
-  color: #dddddd;
+  color: @white;
+}
+.bold {
+  font-weight: 600;
 }
 .nomargin {
   margin: 0px;
@@ -67,8 +69,8 @@ html {
 /** BUTTONS START **/
 .btn {
   font-family: Lato;
-  color: #dddddd;
-  font-size: 12px;
+  color: @white;
+  font-size: 16px;
   background: rgba(51, 51, 51, 0.9);
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -79,25 +81,25 @@ html {
   background: rgba(90, 90, 90, 0.9);
   text-decoration: none;
 }
-
+//INPUTS
 input[type="text"], input[type="email"] {
   display: block;
-  background-color: #dddddd;
+  background-color: @white;
   border-radius: 2px;
-  border: 1px solid #181818;
+  border: 1px solid @darkgray;
   padding: 0em 1em 0em 0.5em;
   height: 40px;
 }
 textarea {
   resize: none;
   display: block;
-  background-color: #dddddd;
+  background-color: @white;
   border-radius: 2px;
-  border: 1px solid #181818;
+  border: 1px solid @darkgray;
   height: 150px;
   padding: 0.5em 0em 0em 0.5em;
 }
-
+//COVERIMAGE
 .frontpagecover {
     background-image: url(../images/kvindesmedien2.jpg);
     background-size: cover;
@@ -106,6 +108,7 @@ textarea {
     background-attachment: fixed;
     height: 100vh;
 }
+//LOGO
 .logotop {
   width: 160px;
   position: absolute;
@@ -113,9 +116,7 @@ textarea {
   left: 15px;
   z-index: 2;
 }
-#christiania {
-  background-image: url(../images/christiania3.jpg);
-}
+//BACKGROUND
 .productscoverimage {
   background-color: @darkgray;
   /**background-image: url(../images/bricktexture.jpg);
@@ -124,23 +125,16 @@ textarea {
   background-repeat: no-repeat;
   background-position:center;**/
 }
+//FOOTER
 #footer {
-    width:100%;
-    height:35px;
-    position:absolute;
-    bottom:0;
-    left:0;
-    background-color: #181818;
+    background-color: @verydarkgray;
 }
-//BACKGROUND LAYER
-.backgroundlayer {
-  background-color: #181818;
-  padding: 20px 0px 20px 0px;
-  margin-bottom: -4px;
-}
-.backgroundlayerlight {
-  background-color: #181818;
-  padding: 20px 0px 20px 0px;
+//SOCIAL MEDIA
+.socialmedia {
+  margin-bottom: 20px;
+  img {
+  width: 40px;
+  }
 }
 
 /*nav to right*/
@@ -149,7 +143,6 @@ textarea {
     float: right;
     }
 }
-/** LOGO **/
 
 /** Responsive burger menu for mobile START **/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -207,7 +200,7 @@ textarea {
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #dddddd;
+  color: @white;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -224,7 +217,7 @@ textarea {
   width: 8px;
   height: 2px;
   display: block;
-  background: #dddddd;
+  background: @white;
   content: '';
 }
 #cssmenu > ul > li.has-sub > a:before {
@@ -234,7 +227,7 @@ textarea {
   display: block;
   width: 2px;
   height: 8px;
-  background: #dddddd;
+  background: @white;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -285,7 +278,7 @@ textarea {
   width: 170px;
   font-size: 14px;
   text-decoration: none;
-  color: #dddddd;
+  color: @white;
   font-weight: 400;
   background: @verydarkgray;
 }
@@ -295,7 +288,7 @@ textarea {
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #ffffff;
+  color: @gold;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -304,7 +297,7 @@ textarea {
   width: 8px;
   height: 2px;
   display: block;
-  background: #dddddd;
+  background: @white;
   content: '';
 }
 #cssmenu.align-right ul ul li.has-sub > a:after {
@@ -318,7 +311,7 @@ textarea {
   display: block;
   width: 2px;
   height: 8px;
-  background: #dddddd;
+  background: @white;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -368,7 +361,7 @@ textarea {
     padding-left: 35px;
   }
   #cssmenu ul ul li a {
-    color: #dddddd;
+    color: @white;
     background: none;
   }
   #cssmenu ul ul li:hover > a,
@@ -393,7 +386,7 @@ textarea {
   #cssmenu #menu-button {
     display: block;
     padding: 17px;
-    color: #dddddd;
+    color: @white;
     cursor: pointer;
     font-size: 12px;
     text-transform: uppercase;
@@ -406,8 +399,8 @@ textarea {
     display: block;
     height: 4px;
     width: 20px;
-    border-top: 2px solid #dddddd;
-    border-bottom: 2px solid #dddddd;
+    border-top: 2px solid @white;
+    border-bottom: 2px solid @white;
     content: '';
   }
   #cssmenu #menu-button:before {
@@ -417,7 +410,7 @@ textarea {
     display: block;
     height: 2px;
     width: 20px;
-    background: #dddddd;
+    background: @white;
     content: '';
   }
   #cssmenu #menu-button.menu-opened:after {
@@ -454,7 +447,7 @@ textarea {
     cursor: pointer;
   }
   #cssmenu .submenu-button.submenu-opened {
-    background: #262626;
+    background: @verydarkgray;
   }
   #cssmenu ul ul .submenu-button {
     height: 34px;
@@ -467,7 +460,7 @@ textarea {
     width: 8px;
     height: 2px;
     display: block;
-    background: #dddddd;
+    background: @white;
     content: '';
   }
   #cssmenu ul ul .submenu-button:after {
@@ -484,7 +477,7 @@ textarea {
     display: block;
     width: 2px;
     height: 8px;
-    background: #dddddd;
+    background: @white;
     content: '';
   }
   #cssmenu ul ul .submenu-button:before {
@@ -502,6 +495,7 @@ textarea {
 /** Responsive burger menu for mobile END **/
 
 /** FRONTPAGE **/
+//BACKGROUND LAYER
 .frontpagecontainer {
   a {
   text-decoration: none;
@@ -515,6 +509,10 @@ textarea {
   height: 194px;
   overflow: hidden;
 
+}
+.whitelayer {
+  background-color: @white;
+  padding: 15px;
 }
 
 .frontpagebox1:hover .imagetextsmall1 {
@@ -534,6 +532,7 @@ textarea {
   h2, p {
     padding-left: 10px;
     padding-top: 5px;
+    color: @darkgray;
   }
 }
 .imagetextsmall {
@@ -556,7 +555,7 @@ textarea {
 }
 .frontpageaboutsection {
   a {
-    color: white;
+    color: black;
     text-decoration: underline;
   }
 }
@@ -564,9 +563,9 @@ textarea {
 // NEWSLETTER FRONTPAGE
 .newsletterfrontpage {
   padding: 10px 0px 30px 0px;
-  background-color: #181818;
+  background-color: @verydarkgray;
   text-align: center;
-  color: #D6D6D2;
+  color: @white;
   input {
   margin: auto;
   margin-bottom: 10px;
@@ -577,10 +576,6 @@ textarea {
 
 
 /** MASONRY START **/
-.grid {
-  /**background: #DDD;**/
-}
-
 /* clear fix */
 .grid:after {
   content: '';
@@ -617,29 +612,26 @@ textarea {
 .newsletter {
   
 }
-
-/** CATEGORY MENU START **/
+/** ACTIVE IN CATEGORY MENU **/
+.active {
+  color: @gold !important;
+}
 .categorymenu {
-  background-color: #D6D6D2;
-  //padding: 20px;
+  background-color: @white;
   a {
   text-decoration: none;
-  color: #000000;
+  color: @verydarkgray;
   display: block;
   padding: 15px;
   }
-}
-
-/** ACTIVE IN CATEGORY MENU **/
-.active {
-  color: #878787 !important;
-}
-.categorymenu {
+  a:hover {
+    //border-left: 5px solid @gold;
+  }
   .active {
   color: @verydarkgray !important;
   font-weight: 600;
   border-left: 5px solid @gold;
-  background-color: #b5b5b5;
+  background-color: @lightgray;
   }
 }
 //PRODUCT PAGE HEADER
@@ -649,13 +641,21 @@ textarea {
   background-color: @verydarkgray;
   padding: 10px;
   h2 {
-  color: #dddddd;
+  color: @white;
   margin: 10px;
+  }
+  a {
+  text-decoration: none;
+  }
+  .active {
+      h2{
+          color: @gold;
+      }
   }
 }
 //PRODUCT DESCRIPTIONBOX
 .productsdescriptionbox {
-  background-color: #D6D6D2;
+  background-color: @white;
   padding: 10px;
   margin-bottom: 20px;
   h2 {
@@ -665,7 +665,7 @@ textarea {
 }
 /** NEWSLETTER **/
 .newslettersignup {
-  color: #D6D6D2;
+  color: @white;
   background-color: @verydarkgray;
   height: 200px;
   margin-top: 20px;
@@ -684,9 +684,13 @@ textarea {
     width: 100%;
   }
 }
+//ADJUST NEWSLETTER SIZE FOR FEEDBACK
+.respond {
+  height: 260px;
+}
 .newsletterbtn {
   font-family: Lato;
-  color: #dddddd;
+  color: @white;
   font-size: 22px;
   background: rgba(51, 51, 51, 0.9);
   padding: 10px 20px 10px 20px;
@@ -708,7 +712,7 @@ textarea {
   }
 }
 .contactpageinformation {
-  background-color: #D6D6D2;
+  background-color: @white;
   padding: 1px 10px 0px 10px ;
 }
 //Goggle maps

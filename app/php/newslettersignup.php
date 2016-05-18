@@ -1,5 +1,5 @@
 <h3>Tilmeld dig vores nyhedsbrev!</h3>
-<form action="<?= $_SERVER['PHP_SELF']; ?>#newsletterform" method="post" id="newsletterform" name="newsletterform" onsubmit="return validateNewsletterForm()">
+<form action="<?= $_SERVER['PHP_SELF']; ?>?respond#newsletterform" method="post" id="newsletterform" name="newsletterform" onsubmit="return validateNewsletterForm()">
 	<input type="email" placeholder="E-mail" name="email" aria-label="email" required />
 	<button class="newsletterbtn">Tilmeld</button>
 </form>
@@ -25,32 +25,25 @@
     $stmt->bind_result($emailexists);
     $stmt->execute();
     
-    //saves stock as variable
     if($stmt->fetch() == 0){
 
-	    //prepared statement
-	//    $stmt->bind_param('s', $deliveryaddress);
 	    $insertstmt->execute();
         
-        // $stock = $pstockid;
         
 $msg = <<<EOD
-<h1>Ordrebekræftelse</h1><br>
-<h2>Ordre nummer: 222</h2>
+<h1>Tilmelding af nyhedsbrev</h1><br>
 <br>
 <br>
-<p>heey</p>
-<br>
-<br>
+<p>Du er nu tilmeldt vores nyhedsbrev.</p>
 <br>
 <br>
 <br>
-Tak fordi du handlede hos os
+<br>
+<br>
 <br>
 <br>
 Venlig hilsen<br>
-Tingfinderen
-
+Kvindesmedien
 EOD;
 $headers = "From: Kvindesmedien";
 
@@ -60,7 +53,7 @@ $headers = "From: Kvindesmedien";
                     echo 'Du er nu tilmeldt vores nyhedsbrev';
         
     }else {
-    	echo 'Du er allerede tilmeldt vores nyhedsbrev';
+    	echo '<p>Du er allerede tilmeldt vores nyhedsbrev</p>';
     }
     //closes statement to prevent error
     $stmt->close();

@@ -60,8 +60,6 @@
 			    while($row = $result->fetch_array()){
 
 			    	?>
-			    	
-
 
 						  <div class="grid-item">
 

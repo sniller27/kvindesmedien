@@ -24,56 +24,25 @@
 <div class="container smalltopbuffer">
 	<div class="row">
 
-      <div class="col-md-9 pull-right">
+		<?php include 'php/productnav.php'; ?>
+
+    <div class="col-md-9">
       <div class="styledheader">
       <h2>Produkter</h2>
       </div>
       <div class="productsdescriptionbox">
-<p>Velkommen til vores produktgalleri. Her kan du kigge på vores brede udvalg af varer, vi har lavet gennem årenes forløb.</p>
-        <div class="content botbuffer">
-			        
-			        <div class="grid">
-					  <div class="grid-sizer"></div>
 
-
-			 <?php 
-    
-		    require_once("php/config.php");
-		    
-		    //SQL query to select all products
-		    $sql = "select mainimage 
-from products a, productcategory_has_products b
-where a.idproduct = b.products_idproduct and
-productcategory_idproductcategory = 6";
-
-		    //connects to db
-		    $result = $conn->query($sql);
-		    //gets data from db and prints out products
-		    while($row = $result->fetch_array()){
-
-		    	?>
-		    	
-
-
-					  <div class="grid-item">
-
-						<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
-					    <img src="<?= $row['mainimage']; ?>">
-					    </a>
-
-					  </div>
-
-
-		    	<?php
-		    }
-		    ?>
-
-					</div>
-			    </div>
-			</div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Velkommen til vores produktgalleri. Her kan du kigge på vores brede udvalg af håndværk, vi har lavet gennem tiderne. Tag et kig på produktkategorierne ude til venstre og blive inspireret.</p>
+            <p>Da vi har travlt med at lave håndværk, så får vi ikke altid lagt, de nyeste produkter op. Henvend dig gerne til os, hvis du har spørgsmål om bestemte varer og produkter.</p>
+          </div>
+          <div class="col-md-6 responsiveimg">
+            <img src="images/vaerksted.jpg">
+          </div>
+        </div>
       </div>
-
-		<?php include 'php/productnav.php'; ?>
+      </div>
 
 
       </div>

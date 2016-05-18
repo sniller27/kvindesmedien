@@ -14,7 +14,7 @@
 		<!-- header -->
 		<?php include 'php/header.php'; ?>
 
-			<div class="container backgroundlayer smalltopbuffer">
+			<div class="container whitelayer smalltopbuffer">
 				<div class="frontpagecontainer">
 					<div class="row">
 						<div class="col-md-12">
@@ -39,7 +39,7 @@
 							</a>
 						</div>
 						<div class="col-md-4 col-sm-6 smallbotbuffer">
-							<a href="sculptures.php">
+							<a href="worktasks.php">
 								<div class="frontpagebox1 responsiveimg">
 									<img src="images/welding.jpg" alt="smedning">
 									<div class="imagetextsmall1">
@@ -63,19 +63,18 @@
 
 					<div class="row frontpageaboutsection">
 					    <div class="col-md-6 smallbotbuffer">
-					    <h2 class="colorwhite">Hvem er vi?</h2>
-					    <p class="colorwhite">Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi laver alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
+					    <h2>Hvem er vi?</h2>
+					    <p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi laver alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
 					    <a href="about.php">Læse mere her...</a>
 					    </div>
 						<div class="col-md-6 responsiveimg">
 					      <img src="images/kvindesmedien.jpg" alt="Kvindesmedien butik">
 					    </div>
 				    </div>
-				    
-
-			    </div>
-			    <hr>
-			    <div class="row">
+				</div>
+			</div>
+			<div class="container">
+				<div class="row smallbotbuffer">
 				    <div class="col-md-12 newsletterfrontpage">
 					    <?php require_once("php/newslettersignup.php"); ?>
 				    </div>

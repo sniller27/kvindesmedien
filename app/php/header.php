@@ -3,7 +3,9 @@
 //active page in navbar
 $frontpage = '';
 $products = '';
+$productstwo = '';
 $about = '';
+$abouttwo = '';
 $contact = '';
 
 //SUBCATEGORIES
@@ -30,10 +32,12 @@ if($currentsite == 'index'){
 }else if($currentsite == 'products'){
     
     $products = 'id="active"';
+    $productstwo = 'class="active"';
 
 }else if($currentsite == 'about'){
 
     $about = 'id="active"';
+    $abouttwo = 'class="active"';
 
 }else if($currentsite == 'contact'){
 
