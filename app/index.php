@@ -86,6 +86,6 @@
 		<?php require_once 'php/footer.php'; ?>
 	</div>
 
-<script type="text/javascript" src="js/scripts/validatenewsletterform.js"></script>
+<script type="text/javascript" src="js/validatenewsletterform.js"></script>
 </body>
 </html>

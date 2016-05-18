@@ -22,4 +22,4 @@
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 <!-- JavaScript -->
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/anavbar.js"></script>

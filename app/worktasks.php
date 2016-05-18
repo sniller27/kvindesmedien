@@ -6,11 +6,9 @@
 
 	<?php include 'php/head.php'; ?>
 
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
-
-<script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
+	<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
+	<script type="text/javascript" src="js/fancyboxcustom.js"></script>
 
 </head>
 <body class="productscoverimage">
@@ -91,10 +89,9 @@ productcategory_idproductcategory IN (10,9) order by productcategory_idproductca
 
 	</div>
   
-  <script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
-  <script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
-  <script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
-
+  	<script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
+	<script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+	<script type="text/javascript" src="js/masonrysettings.js"></script>
 
 </body>
 </html>

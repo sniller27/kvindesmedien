@@ -7,8 +7,8 @@
 	<?php include 'php/head.php'; ?>
 
   <!-- Google maps API -->
+  <script type="text/javascript" src="js/googlemaps.js"></script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-  <script type="text/javascript" src="js/scripts/googlemaps.js"></script>
 
 </head>
 <!-- initialize Google Maps -->
@@ -74,6 +74,6 @@
 
 	</div>
 
-<script type="text/javascript" src="js/scripts/validatecontactform.js"></script>
+<script type="text/javascript" src="js/validatecontactform.js"></script>
 </body>
 </html>

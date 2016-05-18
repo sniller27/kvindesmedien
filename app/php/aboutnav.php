@@ -8,7 +8,7 @@
 				    	<a href="worktasks.php" <?= $worktasks ?>>Smedeopgaver</a>
 				    	<a href="cooperation.php" <?= $cooperation ?>>Samarbejde</a>
 				    	<a href="exhibitions.php" <?= $exhibitions ?>>Udstillinger</a>
-				    	<a href="awards.php" <?= $awards ?>>Awards</a>
+				    	<a href="awards.php" <?= $awards ?>>Priser og awards</a>
 				    	</div>
 			    </div>
 		    </div>

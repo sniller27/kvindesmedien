@@ -65,7 +65,6 @@ html {
     height: auto;
   }
 }
-
 /** BUTTONS START **/
 .btn {
   font-family: Lato;
@@ -624,8 +623,9 @@ textarea {
   display: block;
   padding: 15px;
   }
-  a:hover {
-    //border-left: 5px solid @gold;
+  a:hover:not(.active) {
+    border-left: 5px solid @gold;
+    padding-left: 10px;
   }
   .active {
   color: @verydarkgray !important;

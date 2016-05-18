@@ -10,7 +10,7 @@
 <script type="text/javascript" src="plugins/fancybox/jquery.fancybox.js?v=2.1.5"></script>
 <link rel="stylesheet" type="text/css" href="plugins/fancybox/jquery.fancybox.css?v=2.1.5">
 
-<script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
+<script type="text/javascript" src="js/showproducts.js"></script>
 
 </head>
 <body class="productscoverimage">
@@ -61,6 +61,7 @@
   <script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
   <script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
 
+<script type="text/javascript" src="js/validatenewsletterform.js"></script>
 
 </body>
 </html>

@@ -6,10 +6,6 @@ module.exports = function(grunt) {
         options: {
           separator: ';',
         },
-        js: {
-          src: ['app/js/scripts/*.js'],
-          dest: 'app/js/script.js',
-        },
         css: {
           src: ['app/less/reset.less','app/less/grid12.less','app/less/small.less','app/less/medium.less','app/less/large.less'],
           dest: 'app/styles.less',

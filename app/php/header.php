@@ -107,7 +107,7 @@ if($currentsite == 'index'){
              <li><a href='tables.php' <?= $tables ?>>Borde</a></li>
              <li><a href='furniture.php' <?= $furniture ?>>Møbler</a></li>
              <li><a href='candlesticks.php' <?= $candlesticks ?>>Stager</a></li>
-             <li><a href='light.php' <?= $light ?>>Lysglober</a></li>
+             <li><a href='light.php' <?= $light ?>>Lystræer og lysglober</a></li>
              <li><a href='sculptures.php' <?= $sculptures ?>>Skulpturer</a></li>
              <li><a href='garden.php' <?= $garden ?>>Haven</a></li>
 
