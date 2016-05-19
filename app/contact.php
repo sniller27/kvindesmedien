@@ -27,6 +27,11 @@
             <h2>Kontakt</h2>
           </div>
           <div class="content productsdescriptionbox">
+          <?php
+          if(isset($_GET['mailsent'])){
+            echo '<h2 class="feedbackmessage confirmationcolor">Din besked er blevet sendt!</h2>';
+          }
+          ?>
             <h4>Hos Kvindesmedien er vi altid åbne overfor henvendelser. Besøg os, ring eller skriv til os over mail eller brug kontaktformularen nedenunder.</h4>
             <form action="php/sendemail.php" method="post" onsubmit="return validateContactForm()" name="contactform">
               <input type="text" placeholder="Navn" name="name" aria-label="name"  required />

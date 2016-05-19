@@ -10,8 +10,10 @@
 @verydarkgray : #1F1F1F;
 @darkgray : #333333;
 @gold : #c78c00;
-
 @lightgray : #b5b5b5;
+
+@green : #008000;
+@red : #FF0000;
 
 html,
 body {
@@ -23,6 +25,7 @@ body {
 p {
   line-height: 1.5;
 }
+//SCROLLBAR ACTIVE
 html {
   overflow-y: scroll;
 }
@@ -30,13 +33,10 @@ html {
     min-height:100%;
     position:relative;
 }
-.centercontent {
-  max-width: 1170px;
-  margin: auto;
-}
 #content {
     padding-bottom:100px;
 }
+//MARGIN BUFFERS
 .smallbotbuffer {
   margin-bottom: 30px;
 }
@@ -49,12 +49,23 @@ html {
 .smalltopbuffer {
   margin-top: 30px;
 }
+//WHITE TEXTCOLOR
 .colorwhite {
   color: @white;
 }
+//CONFIRMATION COLOR
+.confirmationcolor {
+  color: @green;
+}
+//ERROR COLOR
+.errorcolor {
+  color: @red;
+}
+//BOLD FONT
 .bold {
   font-weight: 600;
 }
+//REMOVE MARGIN
 .nomargin {
   margin: 0px;
 }
@@ -65,7 +76,7 @@ html {
     height: auto;
   }
 }
-/** BUTTONS START **/
+//BUTTONS START
 .btn {
   font-family: Lato;
   color: @white;
@@ -118,15 +129,10 @@ textarea {
 //BACKGROUND
 .productscoverimage {
   background-color: @darkgray;
-  /**background-image: url(../images/bricktexture.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;**/
 }
 //FOOTER
 #footer {
-    background-color: @verydarkgray;
+  background-color: @verydarkgray;
 }
 //SOCIAL MEDIA
 .socialmedia {
@@ -135,15 +141,13 @@ textarea {
   width: 40px;
   }
 }
-
-/*nav to right*/
+//MOVE NAV TO RIGHT
 @media screen and (min-width: 769px){
     #cssmenu ul {
     float: right;
     }
 }
-
-/** Responsive burger menu for mobile START **/
+//Responsive burger menu for mobile START
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
 #cssmenu ul,
@@ -491,7 +495,7 @@ textarea {
   color: @gold !important;
 
 }
-/** Responsive burger menu for mobile END **/
+//Responsive burger menu for mobile END
 
 /** FRONTPAGE **/
 //BACKGROUND LAYER
@@ -513,12 +517,11 @@ textarea {
   background-color: @white;
   padding: 15px;
 }
-
+//BOX HOVER EFFECT
 .frontpagebox:hover .imagetextsmall {
   top: -110px;
   transition: 0.3s;
 }
-
 .imagetextheader {
   max-width: 660px;
   h2, p {
@@ -544,7 +547,6 @@ textarea {
     text-decoration: underline;
   }
 }
-
 // NEWSLETTER FRONTPAGE
 .newsletterfrontpage {
   padding: 10px 0px 30px 0px;
@@ -558,8 +560,6 @@ textarea {
     width: 100%;
   }
 }
-
-
 /** MASONRY START **/
 /* clear fix */
 .grid:after {
@@ -701,6 +701,9 @@ textarea {
 .contactpageinformation {
   background-color: @white;
   padding: 1px 10px 0px 10px ;
+}
+.feedbackmessage {
+  font-size: 20px;
 }
 //Goggle maps
 #map_canvas {

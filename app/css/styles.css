@@ -1396,10 +1396,6 @@ html {
   min-height: 100%;
   position: relative;
 }
-.centercontent {
-  max-width: 1170px;
-  margin: auto;
-}
 #content {
   padding-bottom: 100px;
 }
@@ -1418,6 +1414,12 @@ html {
 .colorwhite {
   color: #dddddd;
 }
+.confirmationcolor {
+  color: #008000;
+}
+.errorcolor {
+  color: #FF0000;
+}
 .bold {
   font-weight: 600;
 }
@@ -1428,7 +1430,6 @@ html {
   max-width: 100%;
   height: auto;
 }
-/** BUTTONS START **/
 .btn {
   font-family: Lato;
   color: #dddddd;
@@ -1478,11 +1479,6 @@ textarea {
 }
 .productscoverimage {
   background-color: #333333;
-  /**background-image: url(../images/bricktexture.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;**/
 }
 #footer {
   background-color: #1F1F1F;
@@ -1493,13 +1489,11 @@ textarea {
 .socialmedia img {
   width: 40px;
 }
-/*nav to right*/
 @media screen and (min-width: 769px) {
   #cssmenu ul {
     float: right;
   }
 }
-/** Responsive burger menu for mobile START **/
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -1830,7 +1824,6 @@ textarea {
 #active {
   color: #c78c00 !important;
 }
-/** Responsive burger menu for mobile END **/
 /** FRONTPAGE **/
 .frontpagecontainer a {
   text-decoration: none;
@@ -2015,6 +2008,9 @@ textarea {
   background-color: #dddddd;
   padding: 1px 10px 0px 10px ;
 }
+.feedbackmessage {
+  font-size: 20px;
+}
 #map_canvas {
   width: 100%;
   height: 300px;
@@ -2044,6 +2040,9 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+  }
+  .feedbackmessage {
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 992px) {

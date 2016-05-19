@@ -1,5 +1,6 @@
 <?php
 //CATEGORIES
+//Declaring variables
 //active page in navbar
 $frontpage = '';
 $products = '';
@@ -23,7 +24,7 @@ $cooperation = '';
 $exhibitions = '';
 $awards = '';
 
-//chooses id for active page
+//Assigning variables for the right pages
 $currentsite = basename($_SERVER['PHP_SELF'], ".php");
 if($currentsite == 'index'){
 
@@ -98,35 +99,31 @@ if($currentsite == 'index'){
 ?>
 
 <div id="header">
-    
     <div id='cssmenu'>
-    <ul>
-       <li><a href='index.php' <?= $frontpage ?>>Forside</a></li>
-       <li class='active'><a href='products.php' <?= $products ?>>Produkter</a>
-          <ul>
-             <li><a href='tables.php' <?= $tables ?>>Borde</a></li>
-             <li><a href='furniture.php' <?= $furniture ?>>Møbler</a></li>
-             <li><a href='candlesticks.php' <?= $candlesticks ?>>Stager</a></li>
-             <li><a href='light.php' <?= $light ?>>Lystræer og lysglober</a></li>
-             <li><a href='sculptures.php' <?= $sculptures ?>>Skulpturer</a></li>
-             <li><a href='garden.php' <?= $garden ?>>Haven</a></li>
-
-          </ul>
-       </li>
-       <li><a href='about.php' <?= $about ?>>Om Kvindesmedien</a>
-       <ul>
-           
-            <li><a href='worktasks.php' <?= $worktasks ?>>Smedeopgaver</a></li>
-            <li><a href='cooperation.php' <?= $cooperation ?>>Samarbejde</a></li>
-            <li><a href='exhibitions.php' <?= $exhibitions ?>>Udstillinger</a></li>
-            <li><a href='awards.php' <?= $awards ?>>Priser og awards</a></li>
-
-       </ul>
-       </li>
-       <li><a href='contact.php' <?= $contact ?>>Kontakt</a></li>
-       <li><a href='http://shop.kvindesmedien.dk/'>Webshop</a></li>
-    </ul>
+      <ul>
+         <li><a href='index.php' <?= $frontpage ?>>Forside</a></li>
+         <li class='active'><a href='products.php' <?= $products ?>>Produkter</a>
+            <ul>
+               <li><a href='tables.php' <?= $tables ?>>Borde</a></li>
+               <li><a href='furniture.php' <?= $furniture ?>>Møbler</a></li>
+               <li><a href='candlesticks.php' <?= $candlesticks ?>>Stager</a></li>
+               <li><a href='light.php' <?= $light ?>>Lystræer og lysglober</a></li>
+               <li><a href='sculptures.php' <?= $sculptures ?>>Skulpturer</a></li>
+               <li><a href='garden.php' <?= $garden ?>>Haven</a></li>
+            </ul>
+         </li>
+         <li><a href='about.php' <?= $about ?>>Om Kvindesmedien</a>
+         <ul>
+              <li><a href='worktasks.php' <?= $worktasks ?>>Smedeopgaver</a></li>
+              <li><a href='cooperation.php' <?= $cooperation ?>>Samarbejde</a></li>
+              <li><a href='exhibitions.php' <?= $exhibitions ?>>Udstillinger</a></li>
+              <li><a href='awards.php' <?= $awards ?>>Priser og awards</a></li>
+         </ul>
+         </li>
+         <li><a href='contact.php' <?= $contact ?>>Kontakt</a></li>
+         <li><a href='http://shop.kvindesmedien.dk/'>Webshop</a></li>
+      </ul>
     </div>
-
 </div>
+<!-- Logo -->
 <a href="index.php"><img src="images/websitelogo.png" alt="Kvindesmedien logo" class="logotop"></a>
