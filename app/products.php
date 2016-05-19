@@ -38,7 +38,7 @@
             <p>Da vi har travlt med at lave håndværk, så får vi ikke altid lagt, de nyeste produkter op. Henvend dig gerne til os, hvis du har spørgsmål om bestemte varer og produkter.</p>
           </div>
           <div class="col-md-6 responsiveimg">
-            <img src="images/vaerksted.jpg">
+            <img src="images/vaerksted.jpg" alt="vaerksted">
           </div>
         </div>
       </div>
