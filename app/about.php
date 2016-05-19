@@ -4,8 +4,8 @@
 
 	<title>Kvindesmedien</title>
 
+	<!-- head information -->
 	<?php include 'php/head.php'; ?>
-
 
 </head>
 <body class="productscoverimage">

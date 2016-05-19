@@ -21,6 +21,7 @@
 
     <div class="container contactpage">
       <div class="row smalltopbuffer">
+        <!-- contact form -->
         <div class="col-md-8">
           <div class="styledheader">
             <h2>Kontakt</h2>
@@ -35,10 +36,9 @@
             </form>
           </div>
         </div>
-
+        <!-- contactinfo -->
         <div class="col-md-4 smallbotbuffer">
-          <div class="content">
-            
+          <div class="content">              
             <div class="styledheader">
             <h2>Kontaktinfo</h2>
             </div>
@@ -74,6 +74,7 @@
 
 	</div>
 
+<!-- contactform validation script -->
 <script type="text/javascript" src="js/validatecontactform.js"></script>
 </body>
 </html>

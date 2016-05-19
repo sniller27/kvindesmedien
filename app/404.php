@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Siden blev ikke fundet - Kvindesmedien.dk</title>
 	<?php require_once 'php/head.php'; ?>
 </head>
 <body>

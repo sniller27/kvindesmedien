@@ -1838,7 +1838,7 @@ textarea {
 .frontpagesemicover {
   margin-bottom: 30px;
 }
-.frontpagebox1 {
+.frontpagebox {
   max-width: 350px;
   height: 194px;
   overflow: hidden;
@@ -1847,18 +1847,8 @@ textarea {
   background-color: #dddddd;
   padding: 15px;
 }
-.frontpagebox1:hover .imagetextsmall1 {
+.frontpagebox:hover .imagetextsmall {
   top: -110px;
-  -webkit-transition: 0.3s;
-          transition: 0.3s;
-}
-.frontpagebox2:hover .imagetextsmall {
-  top: 130px;
-  -webkit-transition: 0.3s;
-          transition: 0.3s;
-}
-.frontpagebox3:hover .imagetextsmall {
-  top: 130px;
   -webkit-transition: 0.3s;
           transition: 0.3s;
 }
@@ -1872,14 +1862,6 @@ textarea {
   color: #333333;
 }
 .imagetextsmall {
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: relative;
-  top: 150px;
-  -webkit-transition: 0.3s;
-          transition: 0.3s;
-}
-.imagetextsmall1 {
   height: 120px;
   background-color: rgba(0, 0, 0, 0.8);
   position: relative;
@@ -1887,7 +1869,7 @@ textarea {
   -webkit-transition: 0.3s;
           transition: 0.3s;
 }
-.imagetextsmall1 h2 {
+.imagetextsmall h2 {
   padding-left: 10px;
   padding-top: 10px;
 }
@@ -2078,7 +2060,7 @@ textarea {
     width: 160px;
     top: 6px;
   }
-  .frontpagebox1 {
+  .frontpagebox {
     height: 200px;
   }
 }
