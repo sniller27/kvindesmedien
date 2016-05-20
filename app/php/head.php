@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="images/favicon.png">
 
 <!-- Google Font -->
-<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 <!-- CSS -->
 <link href="css/styles.css" rel="stylesheet">
