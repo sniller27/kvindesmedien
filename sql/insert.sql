@@ -2190,5 +2190,13 @@ INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, 
 INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, `products_idproduct`) VALUES (8,493);
 INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, `products_idproduct`) VALUES (8,494);
 
+-- extra vases and jars
+INSERT INTO `products`(`idproduct`, `productname`, `productdescription`, `price`, `mainimage`, `employees_idemployees`) VALUES (null,null,null,null,'images/products/garden/garden_(31).jpg',null);
+INSERT INTO `products`(`idproduct`, `productname`, `productdescription`, `price`, `mainimage`, `employees_idemployees`) VALUES (null,null,null,null,'images/products/garden/garden_(32).jpg',null);
+INSERT INTO `products`(`idproduct`, `productname`, `productdescription`, `price`, `mainimage`, `employees_idemployees`) VALUES (null,null,null,null,'images/products/garden/garden_(33).jpg',null);
+INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, `products_idproduct`) VALUES (6,495);
+INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, `products_idproduct`) VALUES (6,496);
+INSERT INTO `productcategory_has_products`(`productcategory_idproductcategory`, `products_idproduct`) VALUES (6,497);
+
 select * from productcategory_has_products;
 select * from products;

@@ -34,7 +34,7 @@
           ?>
             <h4>Hos Kvindesmedien er vi altid åbne overfor henvendelser. Besøg os, ring eller skriv til os over mail eller brug kontaktformularen nedenunder.</h4>
             <form action="php/sendemail.php" method="post" onsubmit="return validateContactForm()" name="contactform">
-              <input type="text" placeholder="Navn" name="name" aria-label="name"  required />
+              <input type="text" placeholder="Navn" name="name" aria-label="navn"  required />
               <input type="text" placeholder="Email" name="mail" aria-label="email" required  />
               <textarea placeholder="Besked" name="msg" required ></textarea>
               <button class="btn" type="submit">Send besked</button>
@@ -59,8 +59,8 @@
 
               <div class="smallbotbuffer">
                 <h2>Åbningstider</h2>
-                <p>Hverdage 9.00 – 17.00 <br>
-                 Lørdag 11.00 – 15.00</p>
+                <p>Hverdage: 9.00 – 17.00 <br>
+                 Lørdag: 11.00 – 15.00</p>
               </div>
 
               <div class="smallbotbuffer">

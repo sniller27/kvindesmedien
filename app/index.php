@@ -6,6 +6,7 @@
 
 	<?php include 'php/head.php'; ?>
 
+
 </head>
 <body class="productscoverimage">
 
@@ -72,7 +73,7 @@
 				    <div class="col-md-6 smallbotbuffer">
 					    <h2>Hvem er vi?</h2>
 					    <p>Kvindesmedien som også er kendt som Qsmedien er en smedje på Christiania, som tilbyder unikt og spændende metaldesign. Hos Kvindesmedien stræber vi altid efter at levere god kvalitet og spændende design, som vores kunder kan tage med hjem og få glæde af. Vi laver alt fra lysestager, skulpturer, borde, lysestager til folk, der ønsker spændende design men vi varetager også mere almindelige smedeopgaver som smedning af kakkelovne, gelændere, dørhængsler samt specialopgaver.</p>
-					    <a href="about.php">Læse mere her...</a>
+					    <a href="about.php" aria-label="Kvindesmediens historie, værdier og koncept">Læs mere her...</a>
 				    </div>
 					<div class="col-md-6 responsiveimg">
 				    	<img src="images/kvindesmedien.jpg" alt="Kvindesmedien butik">
@@ -95,5 +96,10 @@
 	
 <!-- newslatter validation script -->
 <script type="text/javascript" src="js/validatenewsletterform.js"></script>
+
+<!-- Fallbacks -->
+<!--[if lte IE 9]>
+    <script src="js/fallbacks/hover.js"></script>
+<![endif]-->
 </body>
 </html>
