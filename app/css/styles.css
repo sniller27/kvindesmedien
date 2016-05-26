@@ -1941,7 +1941,7 @@ textarea {
 }
 .styledheader h2 {
   color: #dddddd;
-  margin: 10px;
+  margin: 10px 10px 10px 5px;
 }
 .styledheader a {
   text-decoration: none;

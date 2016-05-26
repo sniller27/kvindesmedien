@@ -61,12 +61,6 @@ $message = "
   <head>
     <meta charset='utf-8'>
     <title>Kvindesmedien</title>
-      <style>
-          td,table {
-            border: 1px solid #DDDDDD;
-          }
-      </style>
-      
   </head>
   <body>
 
@@ -84,26 +78,26 @@ $message = "
             
             
             
-            <tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:5px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
+            <tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:4px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
                   Inviter venner og familie til grilfest
               </h2></td></tr>
             <tr><td width='50%' style='border:none;'><img style='width:298px;vertical-align:middle;' src='http://somethingsimple.dk/Projects/kvindesmedien/images/products/garden/garden_(27).jpg'></td><td width='50%' valign='top' style='padding:10px 10px 10px 10px;border:none;'><h3 style='margin:0px;font-weight: 900;color:#000000;'>
                 Tjek vores store udvalg af grilmateriale. Vi har griller i flere størrelser og til flere seværdigheder uanset om, du er til havefester, strandture eller bare gril på gårdspladsen.
-            </h3><a href='http://somethingsimple.dk/Projects/kvindesmedien/garden.php' style='background-color: #333333;width: 92px;padding: 15px;color: #DDDDDD;text-decoration: none;line-height:100px;font-weight: 600;font-size: 25px'>Se mere her</a></td></tr><tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:5px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
+            </h3><a href='http://somethingsimple.dk/Projects/kvindesmedien/garden.php' style='background-color: #333333;width: 92px;padding: 15px;color: #DDDDDD;text-decoration: none;line-height:100px;font-weight: 600;font-size: 25px'>Se mere her</a></td></tr><tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:4px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
                   Se vores flotte krukker og vaser
               </h2></td></tr><tr><td width='50%' valign='top' style='border:none;'><h3 style='margin:0px;font-weight: 900;color:#000000;padding:10px 10px 10px 10px;vertical-align:top;'>
                 Se vores flotte samling af krukker og vaser. Udvalget er i mange forskellige priser og varianter. Lige til at stille på terassen eller i haven.
-            </h3><p style='padding-left: 10px'>
+            </h3><p style='padding-left: 10px;padding-top:18px;'>
             
-            <a href='http://somethingsimple.dk/Projects/kvindesmedien/garden.php' style='background-color: #333333;width: 92px;padding: 15px;color: #DDDDDD;text-decoration: none;line-height:45px;font-weight: 600;font-size: 25px;'>Se mere her</a></p></td><td width='50%' style='border:none;'><img style='width:309px;border:none;vertical-align:top;' src='http://somethingsimple.dk/Projects/kvindesmedien/images/products/garden/garden_(25).jpg'></td></tr>
-            
-            
+            <a href='http://somethingsimple.dk/Projects/kvindesmedien/garden.php' style='background-color: #333333;width: 92px;padding: 15px;color: #DDDDDD;text-decoration: none;line-height:45px;font-weight: 600;font-size: 25px;'>Se mere her</a></p></td><td width='50%' style='border:none;'><img style='width:309px;border:none;vertical-align:top;' src='http://somethingsimple.dk/Projects/kvindesmedien/images/products/garden/garden_(1).jpg'></td></tr>
             
             
             
             
             
-            <tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:5px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
+            
+            
+            <tr><td colspan='2' align='center' style='background-color: #333333;padding: 10px;border:none;border-top:4px solid #c78c00;'><h2 style='color:#DDDDDD;font-weight: 900;font-size: 30px;'>
                   Nyd en drink i solen
               </h2></td></tr>
             <tr><td width='50%' style='border:none;'><img style='width:300px' src='http://somethingsimple.dk/Projects/kvindesmedien/images/products/tables/table_(3).jpg'></td><td width='50%' valign='top' style='padding:10px 10px 10px 10px;border:none;'><h3 style='margin:0px;font-weight: 900;color:#000000;'>

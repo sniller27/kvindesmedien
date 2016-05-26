@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
 
-	<title>Kvindesmedien</title>
+	<title>Kvindesmedien - Udstillinger</title>
 
 	<!-- head information -->
 	<?php include 'php/head.php'; ?>
-
-<script type="text/javascript" src="js/scripts/fancyboxcustom.js"></script>
 
 </head>
 <body class="productscoverimage">
@@ -79,19 +77,11 @@
 		    </div>
 		</div>
 
-	
-
-
 
 	<!-- Footer -->
 	<?php require_once 'php/footer.php'; ?>
 
 	</div>
-  	
-  	<!-- Masonry and Imagesloaded scripts -->
-	<script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
-	<script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
-	<script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
 
 </body>
 </html>

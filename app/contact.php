@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
 
-	<title>Kvindesmedien</title>
+	<title>Kvindesmedien - Kontakt</title>
 
 	<?php include 'php/head.php'; ?>
 
@@ -35,7 +35,7 @@
             <h4>Hos Kvindesmedien er vi altid åbne overfor henvendelser. Besøg os, ring eller skriv til os over mail eller brug kontaktformularen nedenunder.</h4>
             <form action="php/sendemail.php" method="post" onsubmit="return validateContactForm()" name="contactform">
               <input type="text" placeholder="Navn" name="name" aria-label="navn"  required />
-              <input type="text" placeholder="Email" name="mail" aria-label="email" required  />
+              <input type="email" placeholder="Email" name="mail" aria-label="email" required  />
               <textarea placeholder="Besked" name="msg" required ></textarea>
               <button class="btn" type="submit">Send besked</button>
             </form>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
 
-	<title>Kvindesmedien</title>
+	<title>Kvindesmedien - Samarbejde</title>
 
 	<!-- head information -->
 	<?php include 'php/head.php'; ?>
@@ -80,12 +80,6 @@
 	<?php require_once 'php/footer.php'; ?>
 
 	</div>
-  	
-  	<!-- Masonry and Imagesloaded scripts -->
-	<script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script>
-	<script type="text/javascript" src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
-	<script type="text/javascript" src="js/scripts/masonrysettings.js"></script>
-
 
 </body>
 </html>

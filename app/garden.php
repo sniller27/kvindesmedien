@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
 
-	<title>Kvindesmedien</title>
+	<title>Kvindesmedien - Haven</title>
 
 	<!-- head information -->
 	<?php include 'php/head.php'; ?>
