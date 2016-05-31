@@ -6,12 +6,8 @@ module.exports = function(grunt) {
         options: {
           separator: ';',
         },
-        js: {
-          src: ['app/js/scripts/*.js'],
-          dest: 'app/js/script.js',
-        },
         css: {
-          src: ['app/less/reset.less','app/less/small.less','app/less/medium.less','app/less/large.less'],
+          src: ['app/less/reset.less','app/less/grid12.less','app/less/small.less','app/less/medium.less','app/less/large.less'],
           dest: 'app/styles.less',
         },
       },
@@ -31,7 +27,12 @@ module.exports = function(grunt) {
         uglify: {
     js: {
       files: {
-        'dist2/js/script.js': ['app/js/script.js']
+        'dist/js/anavbar.js': ['app/js/anavbar.js'],
+        'dist/js/fancyboxcustom.js': ['app/js/fancyboxcustom.js'],
+        'dist/js/googlemaps.js': ['app/js/googlemaps.js'],
+        'dist/js/masonrysettings.js': ['app/js/masonrysettings.js'],
+        'dist/js/validatecontactform.js': ['app/js/validatecontactform.js'],
+        'dist/js/validatenewsletterform.js': ['app/js/validatenewsletterform.js'],
       }
     }
   },
@@ -42,7 +43,7 @@ module.exports = function(grunt) {
   },
   target: {
     files: {
-      'dist2/css/styles.css': ['dist2/css/styles.css']
+      'dist/css/styles.css': ['dist/css/styles.css']
     }
   }
 },
@@ -92,12 +93,12 @@ module.exports = function(grunt) {
         cache: false
       },
 
-      dist2: {
+      dist: {
         files: [{
           expand: true,
           cwd: 'app/images/',
           src: ['**/*.{png,jpg,gif}'],
-          dest: 'dist2/images'
+          dest: 'dist/images'
         }]
       }
     },
@@ -106,7 +107,7 @@ module.exports = function(grunt) {
   files: {
     cwd: 'app/',  // set working folder / root to copy
     src: '**/*',           // copy all files and subfolders
-    dest: 'dist2/',    // destination folder
+    dest: 'dist/',    // destination folder
     expand: true           // required when using cwd
   }
 },
@@ -139,6 +140,6 @@ module.exports = function(grunt) {
     
     //watch og browsersync virker ikke samtidig
     grunt.registerTask('default', ['watch']);
-    grunt.registerTask('build', ['copy', 'uglify', 'imagemin', 'cssmin']);
+    grunt.registerTask('build', ['copy', 'uglify', 'cssmin']);
 
 };
