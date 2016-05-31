@@ -53,7 +53,7 @@ $headers = "From: Kvindesmedien";
 
 
                     //newsletter
-                    $to = "sniller27@hotmail.com";
+                    $to = $email;
 $subject = "Sommerudsalg hos Kvindesmedien";
 
 $message = "
