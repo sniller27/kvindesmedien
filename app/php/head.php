@@ -37,5 +37,3 @@
   <script src="js/fallbacks/modernizr-2.8.3.min.js"></script>
     <script src="js/fallbacks/modernizr.js"></script>
 <![endif]-->
-
-<noscript>Vores website fungerer bedre med JavaScript aktiveret, derfor anbefaler vi, at du slår JavaScript til i dine browserindstillinger.</noscript>

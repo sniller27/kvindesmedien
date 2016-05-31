@@ -127,3 +127,5 @@ if($currentsite == 'index'){
 </div>
 <!-- Logo -->
 <a href="index.php"><img src="images/websitelogo.png" alt="Kvindesmedien logo" class="logotop"></a>
+
+<noscript>Vores website fungerer bedre med JavaScript aktiveret, derfor anbefaler vi, at du slår JavaScript til i dine browserindstillinger.</noscript>
