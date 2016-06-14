@@ -39,6 +39,11 @@
 
 						<div class="content">
 					        
+							<?php
+					        $category = 3;
+							include 'php/pagination.php';
+					        ?>
+
 					        <div class="grid">
 								<div class="grid-sizer"></div>
 
@@ -50,7 +55,7 @@
 				    $sql = "select mainimage 
 		from products a, productcategory_has_products b
 		where a.idproduct = b.products_idproduct and
-		productcategory_idproductcategory = 3";
+		productcategory_idproductcategory = $category LIMIT $interval,$pagelimit";
 
 				    //executes query
 				    $result = $conn->query($sql);
@@ -72,6 +77,9 @@
 				    ?>
 
 							</div>
+							<?php
+							include 'php/pagination.php';
+					        ?>
 					    </div>
 					</div>
 		    	</div>

@@ -40,6 +40,12 @@
 						<p>Nogle af vores borde er også af sorbus design, som vi har udviklet sammen med Sorbus Design. Har du spørgsmål vedr. borde af sorbus design, så kan du spørge os eller kontakte Sorbus Design på mail kontakt@sorbusdesign.dk eller besøge deres hjemmeside www.sorbusdesign.dk</p>
 
 						<div class="content">
+
+							<?php
+					        $category = 4;
+							include 'php/pagination.php';
+					        ?>
+
 							<div class="grid">
 								<div class="grid-sizer"></div>
 
@@ -51,7 +57,7 @@
 						    $sql = "select mainimage 
 				from products a, productcategory_has_products b
 				where a.idproduct = b.products_idproduct and
-				productcategory_idproductcategory = 4";
+				productcategory_idproductcategory = $category LIMIT $interval,$pagelimit";
 
 							// executes query
 						    $result = $conn->query($sql);
@@ -74,6 +80,9 @@
 						    ?>
 
 							</div>
+							<?php
+							include 'php/pagination.php';
+					        ?>
 						</div>
 					</div>
 		      	</div>
