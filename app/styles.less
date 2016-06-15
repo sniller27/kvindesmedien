@@ -2056,13 +2056,22 @@ textarea {
 }
 #activepagination {
   background-color: #1F1F1F;
-  color: white;
+  color: @gold;
 }
 .paginationpanel {
   margin-bottom: 20px;
 }
 .paginationpanel:nth-last-of-type(1){
   margin-top: 20px;
+}
+
+//MOBILE LAYOUT FOR MASONRY
+@media (max-width:650px){
+  /* fluid 5 columns */
+  .grid-sizer,
+  .grid-item { width: 50%; }
+  /* 2 columns */
+  .grid-item--width2 { width: 40%; }
 };/** medium **/
 @media only screen and (min-width: 768px) {
 	
