@@ -81,7 +81,7 @@
 
 									  <div class="grid-item">
 
-										<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery">
+										<a class="fancybox" href="<?= $row['mainimage']; ?>" data-fancybox-group="gallery" title="Bord med stenplade - Lavet af <a href='#'>Charlotte</a>">
 									    <img src="<?= $row['mainimage']; ?>" alt="bord">
 									    </a>
 

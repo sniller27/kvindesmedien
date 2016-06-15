@@ -7,7 +7,10 @@ $(document).ready(function() {
 				helpers: {
 			    overlay: {
 			      locked: false
-			    }
+			    },
+			    title: {
+		            position: 'bottom'
+		        }
 			  },
         afterShow: function() {
             $('.fancybox-wrap').swipe({
