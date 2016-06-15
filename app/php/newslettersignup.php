@@ -33,6 +33,21 @@
     if($stmt->fetch() == 0){
         //inserts users email into database
 	    $insertstmt->execute();
+
+        $hashsql = "select * from newsletters order by idnewsletters desc LIMIT 1";
+        //connects to db
+        $result = $conn->query($hashsql);
+        //gets data from db and prints out products
+        while($row = $result->fetch_array()){
+            $hashid = $row['idnewsletters'];
+        }
+
+        //hashing med salt, cost og bcrypt algoritme
+        $options = [
+        'cost' => 10,
+        ];
+
+        $hash = password_hash($hashid, PASSWORD_BCRYPT, $options);     //bruger default Bcrypt algoritmen
         
 $msg = <<<EOD
 Du er blevet tilmeldt Kvindesmediens nyhedsbrev.
@@ -120,7 +135,7 @@ Venlig hilsen Kvindesmedien
                 <a href='#'><img style='width: 40px' src='http://somethingsimple.dk/Projects/kvindesmedien/images/socialmedia/twitter2.png'></a>
                 <a href='https://www.instagram.com/kvindesmedien/'><img style='width: 40px' src='http://somethingsimple.dk/Projects/kvindesmedien/images/socialmedia/instagram2.png'></a>
                 <a href='#'><img style='width: 40px' src='http://somethingsimple.dk/Projects/kvindesmedien/images/socialmedia/youtube2.png'></a></td></tr>
-            <tr><td  colspan='2' align='center' style='background-color: #333333; border:none;padding-bottom: 20px;'><a style='color: #DDDDDD' href='http://somethingsimple.dk/Projects/kvindesmedien/contact.php'>Kontakt</a> | <a href='#' style='color: #DDDDDD'>Afmeld nyhedsbrev</a></td></tr>
+            <tr><td  colspan='2' align='center' style='background-color: #333333; border:none;padding-bottom: 20px;'><a style='color: #DDDDDD' href='http://somethingsimple.dk/Projects/kvindesmedien/contact.php'>Kontakt</a> | <a href='http://somethingsimple.dk/Projects/kvindesmedien2/php/unsubscribenewsletter.php?id=".$hash."' style='color: #DDDDDD'>Afmeld nyhedsbrev</a></td></tr>
 
             
         </tbody>
