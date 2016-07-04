@@ -20,8 +20,31 @@ productcategory_idproductcategory = $category";
 		    }
 
 	        $pages = ceil($number/$pagelimit);
+	        if(isset($_GET['page'])){
+	        	if($_GET['page'] != 1){
+	        	$previouspage = $_GET['page'] - 1;
+	        	echo "<a href='$currentpage?page=$previouspage' class='pagination'><</a>";
+	        	}
 
-	        for ($i=1; $i <= $pages; $i++) {
+	        	$paginationstart = $_GET['page'] - 2;
+	        	$paginationend = $_GET['page'] + 2;
+
+	        }else {
+	        	$paginationstart = 1;
+	        	$paginationend = 5;
+	        }
+	        
+	        if($paginationend>=$pages){
+	        	$paginationend = $pages;
+	        }else if($paginationend<5){
+	        	$paginationend = 5;
+	        }
+	        if($paginationstart <= 1){
+	        	$paginationstart = 1;
+	        }else if($paginationstart>2){
+	        	$paginationstart = 2;
+	        }
+	        for ($i=$paginationstart; $i <= $paginationend; $i++) {
 
 	        	if(isset($_GET['page'])){
 
@@ -48,6 +71,14 @@ productcategory_idproductcategory = $category";
 	        		}
 	        	}
 
+	        }
+	        if(isset($_GET['page'])){
+	        	$nextpage = $_GET['page'] + 1;
+	        	if($_GET['page'] != $pages){
+	        	echo "<a href='$currentpage?page=$nextpage' class='pagination'>></a>";
+	        	}
+	        }else if($pages > 1){
+	        	echo "<a href='$currentpage?page=2' class='pagination'>></a>";
 	        }
 ?>
 </div>
